@@ -10,18 +10,23 @@
  */
 package com.reckitBekinser.activity.menuDataManager.sparepart;
 
+import com.dika.view.component.Button;
 import com.dika.view.component.Dialog;
+import com.dika.view.component.TextArea;
+import com.dika.view.component.TextField;
+
+import javax.swing.*;
 
 /**
  *
  * @author dika
  */
-public class UpdateSparepartViewImpl extends Dialog {
+public class UpdateSparepartViewImpl extends Dialog implements UpdateSparepartView{
 
     /**
      * Creates new form AddSparepartViewImpl
      */
-    public UpdateSparepartViewImpl() {
+    UpdateSparepartViewImpl() {
         super();
         initComponents();
     }
@@ -176,4 +181,54 @@ public class UpdateSparepartViewImpl extends Dialog {
     private com.dika.view.component.custom.RequireTextField noRakSparepartField;
     private com.dika.view.component.custom.SaveButton saveButton1;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public TextField getNamaSparepartField() {
+        return namaSparepartField;
+    }
+
+    @Override
+    public TextField getKategoriSparepartField() {
+        return kategoriSparepartField;
+    }
+
+    @Override
+    public JFormattedTextField getJumlahSparepartField() {
+        return jumlahSparepartField;
+    }
+
+    @Override
+    public TextField getNoRakSparepartField() {
+        return noRakSparepartField;
+    }
+
+    @Override
+    public TextField getLevelRakSparepartField() {
+        return levelRakSparepartField;
+    }
+
+    @Override
+    public TextArea getKeteranganSparepartField() {
+        return keteranganSparepartField;
+    }
+
+    @Override
+    public Button getUpdateButton() {
+        return saveButton1;
+    }
+
+    @Override
+    public Button getCancelButton() {
+        return cancelButton1;
+    }
+
+    @Override
+    public Button getClearButton() {
+        return clearButton1;
+    }
+
+    @Override
+    public Dialog getRoot() {
+        return this;
+    }
 }

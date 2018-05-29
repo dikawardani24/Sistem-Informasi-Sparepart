@@ -11,6 +11,7 @@
 package com.reckitBekinser.activity;
 
 import com.dika.activity.Activity;
+import org.jetbrains.annotations.NotNull;
 
 /**
  *
@@ -18,6 +19,7 @@ import com.dika.activity.Activity;
  */
 public class MainActivity extends Activity<MainView>{
 
+    @NotNull
     @Override
     public MainView getView() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
