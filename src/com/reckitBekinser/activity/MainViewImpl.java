@@ -51,6 +51,9 @@ public class MainViewImpl extends Frame implements MainView{
         dataManagerMenu = new javax.swing.JMenu();
         mdKaryawanMenu = new javax.swing.JMenuItem();
         mdUserMenu = new javax.swing.JMenuItem();
+        mdSparepartMenu = new javax.swing.JMenuItem();
+        mdSupplierMenu = new javax.swing.JMenuItem();
+        javax.swing.JPopupMenu.Separator jSeparator2 = new javax.swing.JPopupMenu.Separator();
         javax.swing.JMenu aboutMenu = new javax.swing.JMenu();
         abProgramMenu = new javax.swing.JMenuItem();
         abLaundryMenu = new javax.swing.JMenuItem();
@@ -83,6 +86,13 @@ public class MainViewImpl extends Frame implements MainView{
 
         mdUserMenu.setText("Manager Data User");
         dataManagerMenu.add(mdUserMenu);
+
+        mdSparepartMenu.setText("Manager Data Sparepart");
+        dataManagerMenu.add(mdSparepartMenu);
+
+        mdSupplierMenu.setText("Manager Data Supplier");
+        dataManagerMenu.add(mdSupplierMenu);
+        dataManagerMenu.add(jSeparator2);
 
         menuBar.add(dataManagerMenu);
 
@@ -125,6 +135,8 @@ public class MainViewImpl extends Frame implements MainView{
     private javax.swing.JMenuItem exitMenu;
     private javax.swing.JMenuItem logoutMenu;
     private javax.swing.JMenuItem mdKaryawanMenu;
+    private javax.swing.JMenuItem mdSparepartMenu;
+    private javax.swing.JMenuItem mdSupplierMenu;
     private javax.swing.JMenuItem mdUserMenu;
     // End of variables declaration//GEN-END:variables
 
