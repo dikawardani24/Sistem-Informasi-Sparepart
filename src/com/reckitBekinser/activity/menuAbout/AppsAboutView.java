@@ -29,7 +29,7 @@ public final class AppsAboutView extends Dialog implements View<Dialog>{
     /**
      * Creates new form AppsAboutView
      */
-    public AppsAboutView() {
+    AppsAboutView() {
         super();
         initComponents();
         setTitle("Tentang Aplikasi");

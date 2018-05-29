@@ -15,11 +15,7 @@
  */
 package com.reckitBekinser.activity.menuDataManager.karyawan;
 
-import com.dika.view.component.Button;
-import com.dika.view.component.ComboBox;
-import com.dika.view.component.Dialog;
-import com.dika.view.component.TextArea;
-import com.dika.view.component.TextField;
+import com.dika.view.component.*;
 
 /**
  *

@@ -23,7 +23,7 @@ import org.jetbrains.annotations.NotNull;
  *
  * @author dika
  */
-public class CompanyAboutActivity extends Activity<CompanyAboutView> {
+public final class CompanyAboutActivity extends Activity<CompanyAboutView> {
     private final CompanyAboutView companyAboutView = new CompanyAboutView();
     
     @NotNull

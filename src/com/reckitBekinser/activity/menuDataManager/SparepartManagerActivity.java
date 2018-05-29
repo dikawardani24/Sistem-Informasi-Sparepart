@@ -14,14 +14,21 @@ import com.dika.activity.CommonManagerActivity;
 import com.dika.report.DataReport;
 import com.dika.view.component.Table;
 import com.dika.view.model.EntityTableModel;
+import com.reckitBekinser.activity.menuDataManager.sparepart.AddSparepartActivity;
+import com.reckitBekinser.activity.menuDataManager.sparepart.DeleteSparepartActivity;
+import com.reckitBekinser.activity.menuDataManager.sparepart.UpdateSparepartActivity;
 import com.reckitBekinser.model.Sparepart;
+import com.reckitBekinser.report.SparepartReport;
+import com.reckitBekinser.service.SparepartServiceImpl;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 /**
  *
  * @author dika
  */
-public class SparepartManagerActivity extends CommonManagerActivity<Integer, Sparepart> {
+public final class SparepartManagerActivity extends CommonManagerActivity<Integer, Sparepart> {
 
     public SparepartManagerActivity() {
         super("Data Manager Sparepart");
@@ -31,18 +38,27 @@ public class SparepartManagerActivity extends CommonManagerActivity<Integer, Spa
     protected void onUpdateModel() {
         Sparepart sparepart = getModelOnSelectedRow();
         if (sparepart != null) {
-            
+            UpdateSparepartActivity activity = startOther(UpdateSparepartActivity.class);
+            activity.setSparepart(sparepart);
+        } else {
+            showInfo("Tidak ada baris terpilih");
         }
     }
 
     @Override
     protected void onDeleteModel() {
-        
+        Sparepart sparepart = getModelOnSelectedRow();
+        if (sparepart != null) {
+            DeleteSparepartActivity activity = startOther(DeleteSparepartActivity.class);
+            activity.setSparepart(sparepart);
+        } else {
+            showInfo("Tidak ada baris terpilih");
+        }
     }
 
     @Override
     protected void onAddModel() {
-
+        startOther(AddSparepartActivity.class);
     }
 
     @NotNull
@@ -54,16 +70,23 @@ public class SparepartManagerActivity extends CommonManagerActivity<Integer, Spa
     @NotNull
     @Override
     protected DataReport onCreateDataReport() {
-        return null;
+        SparepartReport report = new SparepartReport();
+        report.setSpareparts(tableModel.getEntities());
+        return report;
     }
 
     @Override
     public int countData() {
-        return 0;
+        return execute(new SparepartServiceImpl(), SparepartServiceImpl::count);
     }
 
     @Override
     public void insertData(int firstResult, int maxResults) {
-
+        execute(new SparepartServiceImpl(), sparepartService -> {
+            List<Sparepart> spareparts = sparepartService.findAll(maxResults, firstResult);
+            tableModel.clear();
+            tableModel.insert(spareparts);
+            return sparepartService;
+        });
     }
 }

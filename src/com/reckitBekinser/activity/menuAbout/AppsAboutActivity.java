@@ -23,7 +23,7 @@ import org.jetbrains.annotations.NotNull;
  *
  * @author dika
  */
-public class AppsAboutActivity extends Activity<AppsAboutView> {
+public final class AppsAboutActivity extends Activity<AppsAboutView> {
     private final AppsAboutView aboutView = new AppsAboutView();
     
     @NotNull

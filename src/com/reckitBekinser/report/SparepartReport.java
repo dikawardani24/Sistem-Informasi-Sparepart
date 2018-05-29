@@ -13,17 +13,19 @@ package com.reckitBekinser.report;
 import com.dika.report.DataReport;
 import com.dika.util.CollectionHelper;
 import com.reckitBekinser.model.Sparepart;
-import java.util.Collections;
-import java.util.List;
-import static net.sf.dynamicreports.report.builder.DynamicReports.type;
 import net.sf.dynamicreports.report.builder.column.TextColumnBuilder;
 import net.sf.dynamicreports.report.datasource.DRDataSource;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Collections;
+import java.util.List;
+
+import static net.sf.dynamicreports.report.builder.DynamicReports.type;
 
 /**
- *
  * @author dika
  */
-public class SparepartReport extends DataReport {
+public final class SparepartReport extends DataReport {
 
     private List<Sparepart> spareparts = Collections.emptyList();
 
@@ -35,22 +37,39 @@ public class SparepartReport extends DataReport {
         this.spareparts = spareparts;
     }
 
+    @NotNull
     @Override
     protected DRDataSource createDataSource() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        DRDataSource dataSource = new DRDataSource("id", "nama", "kategori", "jumlah",
+                "noRak", "levelRak", "keterangan");
+
+        spareparts.forEach(sparepart -> dataSource.add(
+                sparepart.getId(),
+                sparepart.getNama(),
+                sparepart.getKategori(),
+                sparepart.getJumlah(),
+                sparepart.getNoRak(),
+                sparepart.getLevelRak(),
+                sparepart.getKeterangan()
+        ));
+
+        return dataSource;
     }
 
+    @NotNull
     @Override
     protected List<TextColumnBuilder<?>> createColumns() {
         TextColumnBuilder<?> idCol = createColumn("ID", "id", type.integerType());
         TextColumnBuilder<?> namaCol = createColumn("Nama", "nama", type.stringType());
-        TextColumnBuilder<?> jenkelCol = createColumn("Jenis Kelamin", "jenkel", type.stringType());
-        TextColumnBuilder<?> noTelpCol = createColumn("No. Telp", "noTelp", type.stringType());
-        TextColumnBuilder<?> noKtpCol = createColumn("No. KTP", "noKtp", type.stringType());
-        TextColumnBuilder<?> alamatCol = createColumn("Alamat", "alamat", type.stringType());
+        TextColumnBuilder<?> kategoriCol = createColumn("Kategori", "kategori", type.stringType());
+        TextColumnBuilder<?> jumlahCol = createColumn("Jumlah", "jumlah", type.integerType());
+        TextColumnBuilder<?> noRakCol = createColumn("No. Rak", "noRak", type.stringType());
+        TextColumnBuilder<?> levelRakCol = createColumn("Level Rak", "levelRak", type.stringType());
+        TextColumnBuilder<?> keteranganCol = createColumn("Keterangan", "keterangan", type.stringType());
+
 
         return CollectionHelper.INSTANCE
-                .collectAsArrayList(idCol, namaCol, jenkelCol, noTelpCol, noKtpCol, alamatCol);
+                .collectAsArrayList(idCol, namaCol, kategoriCol, jumlahCol, noRakCol, levelRakCol, keteranganCol);
 
     }
 

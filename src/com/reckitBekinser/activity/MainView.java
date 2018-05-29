@@ -17,11 +17,11 @@ package com.reckitBekinser.activity;
 
 import com.dika.view.InputView;
 import com.dika.view.component.Frame;
+
+import javax.swing.*;
+import javax.swing.text.JTextComponent;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.text.JTextComponent;
 
 /**
  *
@@ -47,6 +47,10 @@ public interface MainView extends InputView<Frame> {
     JMenuItem getMdKaryawanMenu();
     
     JMenuItem getMdUserMenu();
+
+    JMenuItem getMdSparepartMenu();
+
+    JMenuItem getMdSupplierMenu();
 
     @Override
     default List<JTextComponent> getTextComponents() {

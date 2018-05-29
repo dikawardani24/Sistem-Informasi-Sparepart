@@ -28,7 +28,7 @@ public class MainViewImpl extends Frame implements MainView{
     /**
      * Creates new form MainViewImpl
      */
-    public MainViewImpl() {
+    MainViewImpl() {
         initComponents();
     }
 
@@ -188,6 +188,16 @@ public class MainViewImpl extends Frame implements MainView{
     @Override
     public JMenuItem getMdUserMenu() {
         return mdUserMenu;
+    }
+
+    @Override
+    public JMenuItem getMdSparepartMenu() {
+        return mdSparepartMenu;
+    }
+
+    @Override
+    public JMenuItem getMdSupplierMenu() {
+        return mdSupplierMenu;
     }
 
     @Override

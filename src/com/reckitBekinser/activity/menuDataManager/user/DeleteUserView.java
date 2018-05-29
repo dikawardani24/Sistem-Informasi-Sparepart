@@ -21,8 +21,8 @@ import com.dika.view.component.Button;
 import com.dika.view.component.Dialog;
 import com.dika.view.component.TextField;
 
-import java.util.List;
 import javax.swing.text.JTextComponent;
+import java.util.List;
 
 /**
  *

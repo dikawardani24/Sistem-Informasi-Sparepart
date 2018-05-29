@@ -49,7 +49,7 @@ public class DeleteSparepartActivity extends InputActivity<DeleteSparepartView>
                 stop();
             } catch (Exception e) {
                 Logger.INSTANCE.printError(e);
-                showFailed("Data Karyawan Gagal Dihapus");
+                showFailed("Data Sparepart Gagal Dihapus");
             }
             return Unit.INSTANCE;
         });

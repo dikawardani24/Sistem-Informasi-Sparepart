@@ -16,14 +16,11 @@
 package com.reckitBekinser.activity.menuProgram;
 
 import com.dika.view.InputView;
-import com.dika.view.component.Button;
-import com.dika.view.component.CheckBox;
-import com.dika.view.component.Dialog;
-import com.dika.view.component.PasswordField;
-import com.dika.view.component.TextField;
+import com.dika.view.component.*;
+
+import javax.swing.text.JTextComponent;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.text.JTextComponent;
 
 /**
  *

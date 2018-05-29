@@ -24,12 +24,12 @@ import javax.swing.*;
  *
  * @author dika
  */
-public class UnivAboutView extends Dialog implements View<Dialog>{
+public final class UnivAboutView extends Dialog implements View<Dialog>{
 
     /**
      * Creates new form UnivAboutApps
      */
-    public UnivAboutView() {
+    UnivAboutView() {
         super();
         initComponents();
     }

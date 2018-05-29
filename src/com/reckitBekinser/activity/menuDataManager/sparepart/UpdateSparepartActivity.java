@@ -85,7 +85,6 @@ public class UpdateSparepartActivity extends InputActivity<UpdateSparepartView>
             showFailed("Tidak Dapat Memvalidasi Data Sparepart");
             return false;
         }
-
     }
 
     @NotNull

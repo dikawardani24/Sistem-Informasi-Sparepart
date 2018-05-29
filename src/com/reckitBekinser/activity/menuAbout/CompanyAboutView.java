@@ -24,12 +24,12 @@ import javax.swing.*;
  *
  * @author dika
  */
-public class CompanyAboutView extends Dialog implements View<Dialog>{
+public final class CompanyAboutView extends Dialog implements View<Dialog>{
 
     /**
      * Creates new form CompanyAboutView
      */
-    public CompanyAboutView() {
+    CompanyAboutView() {
         super();
         initComponents();
     }

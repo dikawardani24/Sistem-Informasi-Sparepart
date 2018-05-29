@@ -23,7 +23,7 @@ import org.jetbrains.annotations.NotNull;
  *
  * @author dika
  */
-public class UnivAboutActivity extends Activity<UnivAboutView>{
+public final class UnivAboutActivity extends Activity<UnivAboutView>{
     private final UnivAboutView univAboutView = new UnivAboutView();
     
     @NotNull

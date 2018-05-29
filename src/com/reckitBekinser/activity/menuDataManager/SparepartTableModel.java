@@ -5,7 +5,7 @@ import com.dika.view.model.EntityTableModel;
 import com.reckitBekinser.model.Sparepart;
 
 public final class SparepartTableModel extends EntityTableModel<Sparepart> {
-    public SparepartTableModel(WebTable tableHolder) {
+    SparepartTableModel(WebTable tableHolder) {
         super(tableHolder);
         initColumns();
     }
