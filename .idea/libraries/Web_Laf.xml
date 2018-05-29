@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Web_Laf">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/Web_Laf" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/Web_Laf" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib/Web_Laf" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/Web_Laf" recursive="false" type="SOURCES" />
+  </library>
+</component>
