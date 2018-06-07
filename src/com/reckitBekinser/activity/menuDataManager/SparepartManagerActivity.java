@@ -17,6 +17,7 @@ import com.dika.view.model.EntityTableModel;
 import com.reckitBekinser.activity.menuDataManager.sparepart.AddSparepartActivity;
 import com.reckitBekinser.activity.menuDataManager.sparepart.DeleteSparepartActivity;
 import com.reckitBekinser.activity.menuDataManager.sparepart.UpdateSparepartActivity;
+import com.reckitBekinser.tableModel.SparepartTableModel;
 import com.reckitBekinser.model.Sparepart;
 import com.reckitBekinser.report.SparepartReport;
 import com.reckitBekinser.service.SparepartServiceImpl;

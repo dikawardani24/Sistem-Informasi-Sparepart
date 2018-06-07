@@ -7,6 +7,7 @@ import com.dika.view.model.EntityTableModel;
 import com.reckitBekinser.activity.menuDataManager.supplier.AddSupplierActivity;
 import com.reckitBekinser.activity.menuDataManager.supplier.DeleteSupplierActivity;
 import com.reckitBekinser.activity.menuDataManager.supplier.UpdateSupplierActivity;
+import com.reckitBekinser.tableModel.SupplierTableModel;
 import com.reckitBekinser.model.Supplier;
 import com.reckitBekinser.report.SupplierReport;
 import com.reckitBekinser.service.SupplierServiceImpl;

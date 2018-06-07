@@ -17,6 +17,7 @@ import com.dika.view.model.EntityTableModel;
 import com.reckitBekinser.activity.menuDataManager.karyawan.AddKaryawanActivity;
 import com.reckitBekinser.activity.menuDataManager.karyawan.DeleteKaryawanActivity;
 import com.reckitBekinser.activity.menuDataManager.karyawan.UpdateKaryawanActivity;
+import com.reckitBekinser.tableModel.KaryawanTableModel;
 import com.reckitBekinser.model.Karyawan;
 import com.reckitBekinser.report.KaryawanReport;
 import com.reckitBekinser.service.KaryawanServiceImpl;

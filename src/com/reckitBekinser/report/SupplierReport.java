@@ -11,7 +11,7 @@ import java.util.List;
 
 import static net.sf.dynamicreports.report.builder.DynamicReports.type;
 
-public class SupplierReport extends DataReport {
+public final class SupplierReport extends DataReport {
     private List<Supplier> suppliers;
 
     public SupplierReport() {
@@ -49,7 +49,6 @@ public class SupplierReport extends DataReport {
         TextColumnBuilder<?> jumlahCol = createColumn("No. Telp2", "noTelp2", type.integerType());
         TextColumnBuilder<?> noRakCol = createColumn("Email", "email", type.stringType());
         TextColumnBuilder<?> keteranganCol = createColumn("Keterangan", "keterangan", type.stringType());
-
 
         return CollectionHelper.INSTANCE
                 .collectAsArrayList(idCol, namaCol, kategoriCol, jumlahCol, noRakCol, keteranganCol);

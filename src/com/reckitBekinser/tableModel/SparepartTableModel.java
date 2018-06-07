@@ -1,11 +1,11 @@
-package com.reckitBekinser.activity.menuDataManager;
+package com.reckitBekinser.tableModel;
 
 import com.alee.laf.table.WebTable;
 import com.dika.view.model.EntityTableModel;
 import com.reckitBekinser.model.Sparepart;
 
 public final class SparepartTableModel extends EntityTableModel<Sparepart> {
-    SparepartTableModel(WebTable tableHolder) {
+    public SparepartTableModel(WebTable tableHolder) {
         super(tableHolder);
         initColumns();
     }

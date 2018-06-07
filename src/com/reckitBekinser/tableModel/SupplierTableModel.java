@@ -1,4 +1,4 @@
-package com.reckitBekinser.activity.menuDataManager;
+package com.reckitBekinser.tableModel;
 
 import com.alee.laf.table.WebTable;
 import com.dika.view.model.EntityTableModel;

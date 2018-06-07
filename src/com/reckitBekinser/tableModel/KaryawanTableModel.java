@@ -1,4 +1,4 @@
-package com.reckitBekinser.activity.menuDataManager;
+package com.reckitBekinser.tableModel;
 
 import com.alee.laf.table.WebTable;
 import com.dika.view.model.EntityTableModel;
@@ -14,7 +14,6 @@ public final class KaryawanTableModel extends EntityTableModel<Karyawan> {
     @Override
     protected void initColumns() {
         addColumns("ID Karyawan", "Nama", "Jenis Kelamin", "No. Ktp", "No. HP/Telp");
-
     }
 
     @Override

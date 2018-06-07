@@ -10,8 +10,13 @@
  */
 package com.reckitBekinser.activity;
 
+import com.dika.Logger;
 import com.dika.activity.Activity;
+import com.dika.activity.InputActivity;
+import com.dika.database.DatabaseService;
+import com.dika.report.Report;
 import com.dika.view.component.Frame;
+import com.reckitBekinser.activity.main.MainController;
 import com.reckitBekinser.activity.menuAbout.AppsAboutActivity;
 import com.reckitBekinser.activity.menuAbout.CompanyAboutActivity;
 import com.reckitBekinser.activity.menuAbout.UnivAboutActivity;
@@ -22,6 +27,8 @@ import com.reckitBekinser.activity.menuDataManager.UserManagerActivity;
 import com.reckitBekinser.activity.menuProgram.ChangePasswordActivity;
 import com.reckitBekinser.activity.menuProgram.ChangeUsernameActivity;
 import com.reckitBekinser.activity.menuProgram.LoginActivity;
+import java.awt.Component;
+import kotlin.jvm.functions.Function1;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -30,7 +37,7 @@ import javax.swing.*;
  *
  * @author dika
  */
-public final class MainActivity extends Activity<MainView> implements MainView {
+public final class MainActivity extends InputActivity<MainView> implements MainView {
     private final MainView view = new MainViewImpl();
 
     @NotNull
@@ -54,6 +61,53 @@ public final class MainActivity extends Activity<MainView> implements MainView {
         getChangePasswordMenu().addActionListener(e -> startOther(ChangePasswordActivity.class));
         getChangeUsernameMenu().addActionListener(e -> startOther(ChangeUsernameActivity.class));
         getLogoutMenu().addActionListener(e -> stopThenStart(LoginActivity.class));
+    }
+
+    public void showInfo(MainController mainController, String message) {
+        Logger.INSTANCE.printInfo("Show Information Dialog From "+mainController.getControllerTitle());
+        showInfo(message);
+    }
+
+    public void showFailed(MainController mainController, String message) {
+        Logger.INSTANCE.printInfo("Show Failed Dialog From "+mainController.getControllerTitle());
+        showFailed(message);
+    }
+
+    public void showSucceed(MainController mainController, String message) {
+        Logger.INSTANCE.printInfo("Show Succeed Dialog From "+mainController.getControllerTitle());
+        showSucceed(message);
+    }
+
+    public void showNotifOn(MainController mainController, Component component, String message) {
+        Logger.INSTANCE.printInfo("Show Notification Dialog From "+mainController.getControllerTitle());
+        showNotifOn(component, message);
+    }
+
+    public void showEmptyNotifOn(MainController mainController, Component component) {
+        Logger.INSTANCE.printInfo("Show Empty Dialog From "+mainController.getControllerTitle());
+        showEmptyNotifOn(component);
+    }
+    
+    public  <R, S extends DatabaseService<?, ?>> R execute(MainController mainController, S dbService, Function1<? super S, ? extends R> block) {
+        Logger.INSTANCE.printInfo("Using Database Service From "+mainController.getControllerTitle());
+        return super.execute(dbService, block);
+    }
+
+    public  <R, S extends DatabaseService<?, ?>> R execute(MainController mainController, S dbService, String onSucceed, String onFailed,
+                                                           Function1<? super S, ? extends R> block) {
+        Logger.INSTANCE.printInfo("Using Database Service From "+mainController.getControllerTitle());
+        return super.execute(dbService, onSucceed, onFailed, block);
+    }
+
+    public void showReport(MainController mainController, Report report) {
+        Logger.INSTANCE.printInfo("Show Report From "+mainController.getControllerTitle());
+        showReport(report);
+    }
+
+    @NotNull
+    public <A extends Activity<?>> A startOther(MainController mainController, Class<A> activityClass) {
+        Logger.INSTANCE.printInfo("Start Other Activity From "+mainController.getControllerTitle());
+        return super.startOther(activityClass);
     }
 
     @Override
