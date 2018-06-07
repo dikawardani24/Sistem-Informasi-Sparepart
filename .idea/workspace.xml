@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64c8995e-46ab-4464-8b56-4819fb1b0569" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/tableModel/DetailPermintaanSparepartTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/KaryawanTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/SparepartManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/SparepartManagerActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/SparepartTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/SupplierTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/tableModel/KaryawanTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SparepartManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SparepartManagerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SparepartTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/tableModel/SparepartTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SupplierManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SupplierManagerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SupplierTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/tableModel/SupplierTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/report/SupplierReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/report/SupplierReport.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/view/model/SupplierTableModel.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/model/DetailTransaksiSparepartKeluar.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/karyawan/AddKaryawanActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuProgram/ChangePasswordViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuProgram/ChangeUsernameViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuProgram/LoginViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/UserManagerViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparePartView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparePartActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/DeleteSparepartViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/karyawan/DeleteKaryawanActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/DeleteSparepartView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/karyawan/UpdateKaryawanActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SparepartTableModel.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/report/SparepartReport.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SparepartManagerActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/AddSupplierView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/AddSupplierViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/DeleteSupplierView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/DeleteSupplierViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/UpdateSupplierView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/UpdateSupplierViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/AddSupplierActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/DeleteSparepartActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/UpdateSupplierActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SupplierManagerActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/DeleteSupplierActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/AppsAboutActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/CompanyAboutActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/UnivAboutActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/AppsAboutView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/CompanyAboutView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/UnivAboutView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainView.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/report/SupplierReport.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartContainer.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/MainController.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartContainerImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/tableModel/SparepartTableModel.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/tableModel/KaryawanTableModel.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/tableModel/DetailPermintaanSparepartTableModel.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="267" />
+    <option name="y" value="110" />
+    <option name="width" value="675" />
+    <option name="height" value="626" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+              <item name="activity" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.reckitBekinser.activity.tableModel" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.reckitBekinser.activity.menuDataManager.supplier" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/JPA_Starter" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.reckitBekinser.App" />
+      <module name="Sistem Informasi Sparepart" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reckitBekinser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64c8995e-46ab-4464-8b56-4819fb1b0569" name="Default" comment="" />
+      <created>1526399946711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526399946711</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Create Update Sparepart Activity">
+      <created>1527589812684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527589812685</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update Main Activity">
+      <created>1527597924435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527597924435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="267" y="110" width="675" height="626" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32866043" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32866043" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39719626" visible="true" weight="0.49920255" />
+      <window_info id="Structure" order="1" sideWeight="0.60280377" side_tool="true" weight="0.22348484" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917318" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39906102" visible="true" weight="0.24848485" />
+      <window_info id="Structure" order="1" sideWeight="0.600939" side_tool="true" weight="0.17424242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32917318" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Update Sparepart Activity" />
+    <MESSAGE value="Update Main Activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Main Activity" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/service/KaryawanServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SparepartManagerView.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/DeleteSupplierViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/DeleteSupplierViewImpl.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/DeleteSupplierView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/AddSupplierView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/AddSupplierViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="217" column="5" lean-forward="true" selection-start-line="174" selection-start-column="4" selection-end-line="217" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/UpdateSupplierViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/UpdateSupplierView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/DeleteSparepartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/AddSupplierActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="87" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/UpdateSupplierActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SupplierManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/supplier/DeleteSupplierActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SparepartManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/CompanyAboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/CompanyAboutView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/UnivAboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/UnivAboutView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/AppsAboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/service/DetailPermintaanSparepartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/service/KaryawanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/AppsAboutView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/report/KaryawanReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/report/SparepartReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/report/SupplierReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/report/UserReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartContainerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/model/PermintaanSparepart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/tableModel/KaryawanTableModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/tableModel/SupplierTableModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/tableModel/SparepartTableModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/tableModel/SupplierTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/tableModel/SparepartTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/tableModel/KaryawanTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/karyawan/AddKaryawanActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/tableModel/DetailPermintaanSparepartTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Sistem Informasi Sparepart</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JPA_Starter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
