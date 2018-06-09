@@ -38,8 +38,8 @@ public class Sparepart extends AbstractEntity<Integer> {
     private String kategori;
 
     @Basic(optional = false)
-    @Column(name = "jumlah")
-    private int jumlah;
+    @Column(name = "stock")
+    private int stock;
 
     @Basic(optional = false)
     @Column(name = "no_rak")
@@ -69,12 +69,12 @@ public class Sparepart extends AbstractEntity<Integer> {
         this.kategori = kategori;
     }
 
-    public int getJumlah() {
-        return jumlah;
+    public int getStock() {
+        return stock;
     }
 
-    public void setJumlah(int jumlah) {
-        this.jumlah = jumlah;
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 
     public String getNoRak() {
@@ -127,7 +127,7 @@ public class Sparepart extends AbstractEntity<Integer> {
         return id.equals(otherSparepart.id) &&
                 nama.equals(otherSparepart.nama) &&
                 kategori.equals(otherSparepart.kategori) &&
-                jumlah == otherSparepart.jumlah &&
+                stock == otherSparepart.stock &&
                 noRak.equals(otherSparepart.noRak) &&
                 levelRak.equals(otherSparepart.levelRak) &&
                 keterangan.equals(otherSparepart.keterangan);

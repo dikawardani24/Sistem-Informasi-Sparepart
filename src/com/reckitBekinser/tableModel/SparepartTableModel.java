@@ -22,7 +22,7 @@ public final class SparepartTableModel extends EntityTableModel<Sparepart> {
                 sparepart.getId(),
                 sparepart.getNama(),
                 sparepart.getKategori(),
-                sparepart.getJumlah(),
+                sparepart.getStock(),
                 sparepart.getNoRak(),
                 sparepart.getLevelRak(),
                 sparepart.getKeterangan()
@@ -36,7 +36,7 @@ public final class SparepartTableModel extends EntityTableModel<Sparepart> {
         setValueAt(sparepart.getId(), row, 0);
         setValueAt(sparepart.getNama(), row, 1);
         setValueAt(sparepart.getKategori(), row, 2);
-        setValueAt(sparepart.getJumlah(), row, 3);
+        setValueAt(sparepart.getStock(), row, 3);
         setValueAt(sparepart.getNoRak(), row, 4);
         setValueAt(sparepart.getLevelRak(), row, 5);
         setValueAt(sparepart.getKeterangan(), row, 6);

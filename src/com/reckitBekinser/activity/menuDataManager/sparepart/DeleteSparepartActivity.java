@@ -25,7 +25,7 @@ public class DeleteSparepartActivity extends InputActivity<DeleteSparepartView>
             this.sparepart = sparepart;
             getNamaSparepartField().setText(sparepart.getNama());
             getKategoriSparepartField().setText(sparepart.getKategori());
-            getJumlahSparepartField().setValue(sparepart.getJumlah());
+            getJumlahSparepartField().setValue(sparepart.getStock());
             getNoRakSparepartField().setText(sparepart.getNoRak());
             getLevelRakSparepartField().setText(sparepart.getLevelRak());
             getKeteranganSparepartField().setText(sparepart.getKeterangan());

@@ -47,7 +47,7 @@ public final class SparepartReport extends DataReport {
                 sparepart.getId(),
                 sparepart.getNama(),
                 sparepart.getKategori(),
-                sparepart.getJumlah(),
+                sparepart.getStock(),
                 sparepart.getNoRak(),
                 sparepart.getLevelRak(),
                 sparepart.getKeterangan()

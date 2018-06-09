@@ -24,7 +24,7 @@ public class AddSparepartActivity extends InputActivity<AddSparepartView> implem
 
         String value = getJumlahSparepartField().getValue().toString();
         int jumlah = Integer.parseInt(value);
-        sparepart.setJumlah(jumlah);
+        sparepart.setStock(jumlah);
 
         sparepart.setKategori(getKategoriSparepartField().getText());
         sparepart.setKeterangan(getKeteranganSparepartField().getText());

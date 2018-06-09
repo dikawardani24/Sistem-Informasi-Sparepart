@@ -24,7 +24,7 @@ public class UpdateSparepartActivity extends InputActivity<UpdateSparepartView>
             this.sparepart = sparepart;
             getNamaSparepartField().setText(sparepart.getNama());
             getKategoriSparepartField().setText(sparepart.getKategori());
-            getJumlahSparepartField().setValue(sparepart.getJumlah());
+            getJumlahSparepartField().setValue(sparepart.getStock());
             getNoRakSparepartField().setText(sparepart.getNoRak());
             getLevelRakSparepartField().setText(sparepart.getLevelRak());
             getKeteranganSparepartField().setText(sparepart.getKeterangan());
@@ -53,7 +53,7 @@ public class UpdateSparepartActivity extends InputActivity<UpdateSparepartView>
 
         String value = getJumlahSparepartField().getValue().toString();
         int jumlah = Integer.parseInt(value);
-        sparepart.setJumlah(jumlah);
+        sparepart.setStock(jumlah);
 
         sparepart.setKategori(getKategoriSparepartField().getText());
         sparepart.setKeterangan(getKeteranganSparepartField().getText());

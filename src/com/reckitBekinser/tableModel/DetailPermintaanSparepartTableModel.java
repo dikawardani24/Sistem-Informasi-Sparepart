@@ -22,7 +22,7 @@ public final class DetailPermintaanSparepartTableModel extends EntityTableModel<
         addRow(new Object[] {
                 sparepart.getId(),
                 sparepart.getNama(),
-                sparepart.getJumlah(),
+                sparepart.getStock(),
                 detailPermintaanSparepart.getJumlah()
         });
     }
@@ -34,7 +34,7 @@ public final class DetailPermintaanSparepartTableModel extends EntityTableModel<
         Sparepart sparepart = detailPermintaanSparepart.getSparepart();
         setValueAt(sparepart.getId(), row, 0);
         setValueAt(sparepart.getNama(), row, 1);
-        setValueAt(sparepart.getJumlah(), row, 2);
+        setValueAt(sparepart.getStock(), row, 2);
         setValueAt(detailPermintaanSparepart.getJumlah(), row, 3);
     }
 }
