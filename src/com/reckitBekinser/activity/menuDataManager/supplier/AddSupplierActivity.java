@@ -29,6 +29,7 @@ public class AddSupplierActivity extends InputActivity<AddSupplierView>
                     if (parent instanceof SupplierManagerActivity) {
                         ((SupplierManagerActivity) parent).refresh();
                     }
+                    clear();
                     return service;
                 });
     }

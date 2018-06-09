@@ -84,10 +84,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="423" />
-    <option name="y" value="13" />
-    <option name="width" value="675" />
-    <option name="height" value="626" />
+    <option name="x" value="233" />
+    <option name="y" value="126" />
+    <option name="width" value="667" />
+    <option name="height" value="627" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,13 +139,6 @@
               <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
               <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
               <item name="activity" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
@@ -386,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528573483318</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Refresh">
+      <created>1528574568167</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528574568167</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="738" extended-state="6" />
+    <frame x="233" y="126" width="667" height="627" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -404,7 +404,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39719626" visible="true" weight="0.19318181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39719626" visible="true" weight="0.41195476" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info id="Structure" order="1" sideWeight="0.60280377" side_tool="true" weight="0.22348484" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,7 +490,8 @@
     <MESSAGE value="Prepare main activity" />
     <MESSAGE value="Fix Login Activity and prepare main activity when user logged in" />
     <MESSAGE value="Remove unused component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused component" />
+    <MESSAGE value="Refresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refresh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="1037">
           <caret line="96" column="12" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
         </state>
       </provider>

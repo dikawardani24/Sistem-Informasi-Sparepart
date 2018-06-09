@@ -50,6 +50,8 @@ public final class AddKaryawanActivity extends InputActivity<AddKaryawanView> im
                     if (parent instanceof KaryawanManagerActivity) {
                         ((KaryawanManagerActivity) parent).refresh();
                     }
+                    
+                    clear();
                     return karyawanService;
                 });
     }
