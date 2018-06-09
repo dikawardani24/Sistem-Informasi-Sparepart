@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64c8995e-46ab-4464-8b56-4819fb1b0569" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/sparepart/DeleteSparepartActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/sparepart/DeleteSparepartActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/model/Sparepart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/model/Sparepart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/report/SparepartReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/report/SparepartReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/UpdateSparepartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/JPA_Starter/jpa_starter_dika.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JPA_Starter/jpa_starter_dika.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,35 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DeleteKaryawanActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/karyawan/DeleteKaryawanActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateKaryawanActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/karyawan/UpdateKaryawanActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddSparepartActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,19 +85,40 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="237" />
-    <option name="y" value="23" />
+    <option name="x" value="146" />
+    <option name="y" value="38" />
     <option name="width" value="675" />
     <option name="height" value="626" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Sistem Informasi Sparepart" type="cbb8eebc:String" user="Sistem Informasi Sparepart" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Sistem Informasi Sparepart" type="cbb8eebc:String" user="Sistem Informasi Sparepart" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Sistem Informasi Sparepart" type="cbb8eebc:String" user="Sistem Informasi Sparepart" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
+              <item name="JPA_Starter" type="cbb8eebc:String" user="JPA_Starter" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,22 +159,6 @@
               <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
               <item name="activity" type="1f31426a:PackageElementNode" />
               <item name="menuDataManager" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="menuDataManager" type="1f31426a:PackageElementNode" />
-              <item name="karyawan" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="menuDataManager" type="1f31426a:PackageElementNode" />
-              <item name="sparepart" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
@@ -371,12 +342,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528544324719</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fix Add Sparepart Activity when successfully save new data Sparepart">
+      <created>1528544688772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528544688772</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -471,7 +448,8 @@
     <MESSAGE value="Reordering and resize the window size of user manager activity" />
     <MESSAGE value="Registered model entity into JPA" />
     <MESSAGE value="Change jumlah field into stock in Sparepart model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change jumlah field into stock in Sparepart model" />
+    <MESSAGE value="Fix Add Sparepart Activity when successfully save new data Sparepart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Add Sparepart Activity when successfully save new data Sparepart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -812,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/sparepart/AddSparepartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
         </state>
       </provider>
     </entry>
