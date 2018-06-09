@@ -69,7 +69,6 @@ public final class AddKaryawanActivity extends InputActivity<AddKaryawanView> im
         return view;
     }
 
-
     @Override
     public TextField getNamaField() {
         return view.getNamaField();
