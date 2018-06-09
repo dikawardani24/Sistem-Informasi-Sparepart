@@ -90,7 +90,10 @@ public final class LoginActivity extends InputActivity<LoginView> implements Log
 
         getLoginButton().addActionListener(evt -> login());
 
-        add((OnResumedAction) activity -> clear());
+        add((OnResumedAction) activity -> {
+            clear();
+            getRoot().getRootPane().setDefaultButton(getLoginButton());
+        });
     }
 
     @NotNull

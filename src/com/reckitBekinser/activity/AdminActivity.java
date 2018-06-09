@@ -49,15 +49,28 @@ public final class AdminActivity extends InputActivity<AdminView> implements Adm
         Karyawan karyawan = Session.getInstance().getKaryawan();
         switch(karyawan.getJabatan()) {
             case "Admin" :
-                getMainMenuBar().remove(getDataManagerMenu());
-                getAdmintTabbedPane().setVisible(true);
+                if (!isContainDataManager()) {
+                    getMainMenuBar().add(getDataManagerMenu(), 1);
+                }
+
+                getDataManagerMenu().setVisible(true);
+                view.getRoot().setContentPane(getAdmintTabbedPane());
                 break;
             case "Teknisi" :
-                getDataManagerMenu().setVisible(false);
-                getAdmintTabbedPane().setVisible(false);
+                getMainMenuBar().remove(getDataManagerMenu());
                 view.getRoot().setContentPane(new PermintaanSparepartContainerImpl());
                 break;
         }
+    }
+
+    private boolean isContainDataManager() {
+        for (Component component : getMainMenuBar().getComponents()) {
+            if (component.equals(getDataManagerMenu())) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     @Override
