@@ -29,6 +29,7 @@ import com.reckitBekinser.activity.menuDataManager.user.DeleteUserActivity;
 import com.reckitBekinser.model.User;
 import com.reckitBekinser.report.UserReport;
 import com.reckitBekinser.service.UserServiceImpl;
+import com.reckitBekinser.tableModel.UserTableModel;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
