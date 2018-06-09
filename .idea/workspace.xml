@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="64c8995e-46ab-4464-8b56-4819fb1b0569" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/bigIcon/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/bigIcon/logout.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +62,6 @@
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainView.java" />
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/report/SupplierReport.java" />
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartContainer.java" />
-        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/MainController.java" />
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/PermintaanSparepartContainerImpl.java" />
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/tableModel/SparepartTableModel.java" />
@@ -82,12 +79,13 @@
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/AdminViewImpl.java" />
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/AdminActivity.java" />
         <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/menuProgram/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="368" />
-    <option name="y" value="23" />
+    <option name="x" value="423" />
+    <option name="y" value="13" />
     <option name="width" value="675" />
     <option name="height" value="626" />
   </component>
@@ -135,6 +133,19 @@
               <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
               <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
               <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+              <item name="activity" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+              <item name="activity" type="1f31426a:PackageElementNode" />
+              <item name="main" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
@@ -368,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528573375409</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Remove unused component">
+      <created>1528573483318</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528573483318</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -471,7 +489,8 @@
     <MESSAGE value="Change JPA Starter libs" />
     <MESSAGE value="Prepare main activity" />
     <MESSAGE value="Fix Login Activity and prepare main activity when user logged in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Login Activity and prepare main activity when user logged in" />
+    <MESSAGE value="Remove unused component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -778,14 +797,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/AdminView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/AdminViewImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
@@ -795,19 +814,6 @@
             <element signature="e#5964#5965#0" expanded="true" />
             <element signature="e#5950#5951#0" expanded="true" />
             <element signature="e#5977#5978#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/AdminActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-          <folding>
-            <element signature="e#6115#6116#0" expanded="true" />
-            <element signature="e#6142#6143#0" expanded="true" />
-            <element signature="e#5501#5502#0" expanded="true" />
-            <element signature="e#5528#5529#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -823,6 +829,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="96" column="12" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -28,7 +28,7 @@ import java.util.List;
  *
  * @author dika
  */
-public interface AdminView extends InputView<Frame> {
+public interface MainView extends InputView<Frame> {
     MenuBar getMainMenuBar();
 
     JTabbedPane getAdmintTabbedPane();

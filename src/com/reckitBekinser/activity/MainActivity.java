@@ -42,8 +42,8 @@ import javax.swing.*;
  *
  * @author dika
  */
-public final class AdminActivity extends InputActivity<AdminView> implements AdminView {
-    private final AdminView view = new AdminViewImpl();
+public final class MainActivity extends InputActivity<MainView> implements MainView {
+    private final MainView view = new MainViewImpl();
 
     private void switchView() {
         Karyawan karyawan = Session.getInstance().getKaryawan();
@@ -74,7 +74,7 @@ public final class AdminActivity extends InputActivity<AdminView> implements Adm
     }
 
     @Override
-    protected void initListener(AdminView v) {
+    protected void initListener(MainView v) {
         getAbLaundryMenu().addActionListener(e -> startOther(CompanyAboutActivity.class));
         getAbProgramMenu().addActionListener(e -> startOther(AppsAboutActivity.class));
         getAbUnivMenu().addActionListener(e -> startOther(UnivAboutActivity.class));
@@ -96,7 +96,7 @@ public final class AdminActivity extends InputActivity<AdminView> implements Adm
 
     @NotNull
     @Override
-    public AdminView getView() {
+    public MainView getView() {
         return view;
     }
 

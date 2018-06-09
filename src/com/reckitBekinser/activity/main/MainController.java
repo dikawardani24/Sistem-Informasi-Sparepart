@@ -5,7 +5,7 @@ import com.dika.activity.Activity;
 import com.dika.database.DatabaseService;
 import com.dika.report.Report;
 import com.dika.util.CalendarHelper;
-import com.reckitBekinser.activity.AdminActivity;
+import com.reckitBekinser.activity.MainActivity;
 import kotlin.jvm.functions.Function1;
 import org.jetbrains.annotations.NotNull;
 
@@ -13,10 +13,10 @@ import java.awt.*;
 import java.util.Date;
 
 abstract public class MainController {
-    private final AdminActivity mainActivity;
+    private final MainActivity mainActivity;
     private final String controllerTitle;
 
-    MainController(AdminActivity mainActivity, String controllerTitle) {
+    MainController(MainActivity mainActivity, String controllerTitle) {
         this.mainActivity = mainActivity;
         this.controllerTitle = controllerTitle;
     }
@@ -27,7 +27,7 @@ abstract public class MainController {
         return controllerTitle;
     }
 
-    protected AdminActivity getMainActivity() {
+    protected MainActivity getMainActivity() {
         return mainActivity;
     }
 

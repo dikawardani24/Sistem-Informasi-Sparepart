@@ -19,12 +19,12 @@ import javax.swing.*;
  *
  * @author dika
  */
-public class AdminViewImpl extends Frame implements AdminView {
+public class MainViewImpl extends Frame implements MainView {
 
     /**
-     * Creates new form AdminViewImpl
+     * Creates new form MainViewImpl
      */
-    public AdminViewImpl() {
+    public MainViewImpl() {
         super();
         initComponents();
     }
