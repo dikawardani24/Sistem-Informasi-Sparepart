@@ -21,29 +21,19 @@ public final class SupplierManagerActivity extends CommonManagerActivity<Integer
     }
 
     @Override
-    protected void onUpdateModel() {
-        Supplier supplier = getModelOnSelectedRow();
-        if (supplier != null) {
-            UpdateSupplierActivity activity = startOther(UpdateSupplierActivity.class);
-            activity.setSupplier(supplier);
-        } else {
-            showInfo("Tidak ada baris terpilih");
-        }
+    protected void onUpdate(Supplier supplier) {
+        UpdateSupplierActivity activity = startOther(UpdateSupplierActivity.class);
+        activity.setSupplier(supplier);
     }
 
     @Override
-    protected void onDeleteModel() {
-        Supplier supplier = getModelOnSelectedRow();
-        if (supplier != null) {
-            DeleteSupplierActivity activity = startOther(DeleteSupplierActivity.class);
-            activity.setSupplier(supplier);
-        } else {
-            showInfo("Tidak ada baris terpilih");
-        }
+    protected void onDelete(Supplier supplier) {
+        DeleteSupplierActivity activity = startOther(DeleteSupplierActivity.class);
+        activity.setSupplier(supplier);
     }
 
     @Override
-    protected void onAddModel() {
+    protected void onAddEntity() {
         startOther(AddSupplierActivity.class);
     }
 

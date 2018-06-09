@@ -41,25 +41,15 @@ public class KaryawanManagerActivity extends CommonManagerActivity<Integer, Kary
     }
 
     @Override
-    protected void onUpdateModel() {
-        Karyawan karyawan = getModelOnSelectedRow();
-        if (karyawan != null) {
-            UpdateKaryawanActivity activity = startOther(UpdateKaryawanActivity.class);
-            activity.setKaryawan(karyawan);
-        } else {
-            showInfo("Tidak ada baris terpilih");
-        }
+    protected void onUpdate(Karyawan karyawan) {
+        UpdateKaryawanActivity activity = startOther(UpdateKaryawanActivity.class);
+        activity.setKaryawan(karyawan);
     }
 
     @Override
-    protected void onDeleteModel() {
-        Karyawan karyawan = getModelOnSelectedRow();
-        if (karyawan != null) {
-            DeleteKaryawanActivity activity = startOther(DeleteKaryawanActivity.class);
-            activity.setKaryawan(karyawan);
-        } else {
-            showInfo("Tidak ada baris terpilih");
-        }
+    protected void onDelete(Karyawan karyawan) {
+        DeleteKaryawanActivity activity = startOther(DeleteKaryawanActivity.class);
+        activity.setKaryawan(karyawan);
     }
 
     @NotNull

@@ -36,29 +36,19 @@ public final class SparepartManagerActivity extends CommonManagerActivity<Intege
     }
 
     @Override
-    protected void onUpdateModel() {
-        Sparepart sparepart = getModelOnSelectedRow();
-        if (sparepart != null) {
-            UpdateSparepartActivity activity = startOther(UpdateSparepartActivity.class);
-            activity.setSparepart(sparepart);
-        } else {
-            showInfo("Tidak ada baris terpilih");
-        }
+    protected void onUpdate(Sparepart sparepart) {
+        UpdateSparepartActivity activity = startOther(UpdateSparepartActivity.class);
+        activity.setSparepart(sparepart);
     }
 
     @Override
-    protected void onDeleteModel() {
-        Sparepart sparepart = getModelOnSelectedRow();
-        if (sparepart != null) {
-            DeleteSparepartActivity activity = startOther(DeleteSparepartActivity.class);
-            activity.setSparepart(sparepart);
-        } else {
-            showInfo("Tidak ada baris terpilih");
-        }
+    protected void onDelete(Sparepart sparepart) {
+        DeleteSparepartActivity activity = startOther(DeleteSparepartActivity.class);
+        activity.setSparepart(sparepart);
     }
 
     @Override
-    protected void onAddModel() {
+    protected void onAddEntity() {
         startOther(AddSparepartActivity.class);
     }
 
