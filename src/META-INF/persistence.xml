@@ -4,6 +4,15 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>com.reckitBekinser.model.Karyawan</class>
         <class>com.reckitBekinser.model.User</class>
+
+        <class>com.reckitBekinser.model.DetailPermintaanSparepart</class>
+        <class>com.reckitBekinser.model.DetailTransaksiSparepartMasuk</class>
+        <class>com.reckitBekinser.model.DetailTransaksiSparepartKeluar</class>
+        <class>com.reckitBekinser.model.PermintaanSparepart</class>
+        <class>com.reckitBekinser.model.Sparepart</class>
+        <class>com.reckitBekinser.model.Supplier</class>
+        <class>com.reckitBekinser.model.TransaksiSparepartMasuk</class>
+        <class>com.reckitBekinser.model.TransaksiSparepartKeluar</class>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/inventory_sparepart_recket_bekinser?zeroDateTimeBehavior=convertToNull"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
