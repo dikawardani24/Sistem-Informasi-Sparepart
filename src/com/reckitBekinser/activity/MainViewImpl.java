@@ -60,7 +60,7 @@ public class MainViewImpl extends Frame implements MainView{
         abUnivMenu = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Rental Mobil");
+        setTitle("Sistem Informasi Sparepart PT. Reckit Bekinser");
 
         programMenu.setText("Program");
 
@@ -115,11 +115,11 @@ public class MainViewImpl extends Frame implements MainView{
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 648, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 281, Short.MAX_VALUE)
+            .addGap(0, 350, Short.MAX_VALUE)
         );
 
         pack();
