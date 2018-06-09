@@ -36,7 +36,7 @@ public class KaryawanManagerActivity extends CommonManagerActivity<Integer, Kary
     }
 
     @Override
-    protected void onAddModel() {
+    protected void onAddEntity() {
         startOther(AddKaryawanActivity.class);
     }
 
