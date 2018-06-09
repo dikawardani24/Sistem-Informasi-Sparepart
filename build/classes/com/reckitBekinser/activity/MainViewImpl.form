@@ -50,16 +50,6 @@
             <Property name="text" type="java.lang.String" value="Data Manager"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="mdKaryawanMenu">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Manager Data Karyawan"/>
-              </Properties>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mdUserMenu">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Manager Data User"/>
-              </Properties>
-            </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mdSparepartMenu">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Manager Data Sparepart"/>
@@ -75,6 +65,16 @@
                 <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
               </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mdKaryawanMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Manager Data Karyawan"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mdUserMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Manager Data User"/>
+              </Properties>
             </MenuItem>
           </SubComponents>
         </Menu>

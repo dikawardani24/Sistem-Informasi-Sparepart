@@ -49,18 +49,18 @@ public class MainViewImpl extends Frame implements MainView{
         logoutMenu = new javax.swing.JMenuItem();
         exitMenu = new javax.swing.JMenuItem();
         dataManagerMenu = new javax.swing.JMenu();
-        mdKaryawanMenu = new javax.swing.JMenuItem();
-        mdUserMenu = new javax.swing.JMenuItem();
         mdSparepartMenu = new javax.swing.JMenuItem();
         mdSupplierMenu = new javax.swing.JMenuItem();
         javax.swing.JPopupMenu.Separator jSeparator2 = new javax.swing.JPopupMenu.Separator();
+        mdKaryawanMenu = new javax.swing.JMenuItem();
+        mdUserMenu = new javax.swing.JMenuItem();
         javax.swing.JMenu aboutMenu = new javax.swing.JMenu();
         abProgramMenu = new javax.swing.JMenuItem();
         abLaundryMenu = new javax.swing.JMenuItem();
         abUnivMenu = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Sistem Informasi Sparepart PT. Recket Bekinser");
+        setTitle("Rental Mobil");
 
         programMenu.setText("Program");
 
@@ -81,18 +81,18 @@ public class MainViewImpl extends Frame implements MainView{
 
         dataManagerMenu.setText("Data Manager");
 
-        mdKaryawanMenu.setText("Manager Data Karyawan");
-        dataManagerMenu.add(mdKaryawanMenu);
-
-        mdUserMenu.setText("Manager Data User");
-        dataManagerMenu.add(mdUserMenu);
-
         mdSparepartMenu.setText("Manager Data Sparepart");
         dataManagerMenu.add(mdSparepartMenu);
 
         mdSupplierMenu.setText("Manager Data Supplier");
         dataManagerMenu.add(mdSupplierMenu);
         dataManagerMenu.add(jSeparator2);
+
+        mdKaryawanMenu.setText("Manager Data Karyawan");
+        dataManagerMenu.add(mdKaryawanMenu);
+
+        mdUserMenu.setText("Manager Data User");
+        dataManagerMenu.add(mdUserMenu);
 
         menuBar.add(dataManagerMenu);
 

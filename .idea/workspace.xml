@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c8995e-46ab-4464-8b56-4819fb1b0569" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/UserManagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/UserManagerActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/activity/menuDataManager/UserTableModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainViewImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java">
+      <file leaf-file-name="KaryawanManagerActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+            <state relative-caret-position="612">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,6 +115,11 @@
               <item name="Sistem Informasi Sparepart" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sistem Informasi Sparepart" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -136,6 +142,13 @@
               <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
               <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
               <item name="activity" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+              <item name="activity" type="1f31426a:PackageElementNode" />
+              <item name="menuDataManager" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -287,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528536889268</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Replace Library JPA Starter with the new one">
+      <created>1528537615785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528537615785</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -307,7 +327,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39719626" weight="0.27651516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39719626" visible="true" weight="0.27651516" />
       <window_info id="Structure" order="1" sideWeight="0.60280377" side_tool="true" weight="0.22348484" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -383,7 +403,8 @@
     <MESSAGE value="Create Update Sparepart Activity" />
     <MESSAGE value="Update Main Activity" />
     <MESSAGE value="Using new Common Manager Activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using new Common Manager Activity" />
+    <MESSAGE value="Replace Library JPA Starter with the new one" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace Library JPA Starter with the new one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,16 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/SupplierManagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -724,8 +735,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+        <state relative-caret-position="552">
+          <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuDataManager/KaryawanManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
