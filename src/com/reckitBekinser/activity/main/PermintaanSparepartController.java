@@ -5,7 +5,7 @@ import com.dika.view.component.Button;
 import com.dika.view.component.Panel;
 import com.dika.view.component.TextField;
 import com.dika.view.custom.PagingTableView;
-import com.reckitBekinser.activity.MainActivity;
+import com.reckitBekinser.activity.AdminActivity;
 import com.reckitBekinser.model.DetailPermintaanSparepart;
 import com.reckitBekinser.model.Karyawan;
 import com.reckitBekinser.model.PermintaanSparepart;
@@ -23,7 +23,7 @@ public class PermintaanSparepartController extends MainController
     private Karyawan teknisi;
     private DetailPermintaanSparepartTableModel tableModel;
 
-    public PermintaanSparepartController(MainActivity mainActivity) {
+    public PermintaanSparepartController(AdminActivity mainActivity) {
         super(mainActivity, "Penerimaan Controller");
     }
 

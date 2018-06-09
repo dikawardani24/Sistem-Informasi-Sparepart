@@ -22,7 +22,7 @@ import com.dika.database.exception.NoResultException;
 import com.dika.security.MD5Encryption;
 import com.dika.view.component.*;
 import com.reckitBekinser.Session;
-import com.reckitBekinser.activity.MainActivity;
+import com.reckitBekinser.activity.AdminActivity;
 import com.reckitBekinser.model.User;
 import com.reckitBekinser.service.UserServiceImpl;
 import kotlin.Unit;
@@ -54,7 +54,7 @@ public final class LoginActivity extends InputActivity<LoginView> implements Log
 
                     if (grandted) {
                         Session.getInstance().setUser(user);
-                        stopThenStart(MainActivity.class);
+                        stopThenStart(AdminActivity.class);
                         progressPopOver.dispose();
                     } else {
                         progressPopOver.dispose();

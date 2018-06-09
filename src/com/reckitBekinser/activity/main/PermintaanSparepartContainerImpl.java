@@ -24,7 +24,7 @@ public class PermintaanSparepartContainerImpl extends Panel implements Permintaa
     /**
      * Creates new form PermintaanSparepartContainer
      */
-    PermintaanSparepartContainerImpl() {
+    public PermintaanSparepartContainerImpl() {
         initComponents();
     }
 

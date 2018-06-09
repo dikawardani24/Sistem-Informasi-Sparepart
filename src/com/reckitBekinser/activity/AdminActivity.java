@@ -13,10 +13,13 @@ package com.reckitBekinser.activity;
 import com.dika.Logger;
 import com.dika.activity.Activity;
 import com.dika.activity.InputActivity;
+import com.dika.activity.service.OnStartedAction;
 import com.dika.database.DatabaseService;
 import com.dika.report.Report;
 import com.dika.view.component.Frame;
+import com.reckitBekinser.Session;
 import com.reckitBekinser.activity.main.MainController;
+import com.reckitBekinser.activity.main.PermintaanSparepartContainerImpl;
 import com.reckitBekinser.activity.menuAbout.AppsAboutActivity;
 import com.reckitBekinser.activity.menuAbout.CompanyAboutActivity;
 import com.reckitBekinser.activity.menuAbout.UnivAboutActivity;
@@ -27,6 +30,7 @@ import com.reckitBekinser.activity.menuDataManager.UserManagerActivity;
 import com.reckitBekinser.activity.menuProgram.ChangePasswordActivity;
 import com.reckitBekinser.activity.menuProgram.ChangeUsernameActivity;
 import com.reckitBekinser.activity.menuProgram.LoginActivity;
+import com.reckitBekinser.model.Karyawan;
 import java.awt.Component;
 import kotlin.jvm.functions.Function1;
 import org.jetbrains.annotations.NotNull;
@@ -37,17 +41,26 @@ import javax.swing.*;
  *
  * @author dika
  */
-public final class MainActivity extends InputActivity<MainView> implements MainView {
-    private final MainView view = new MainViewImpl();
+public final class AdminActivity extends InputActivity<AdminView> implements AdminView {
+    private final AdminView view = new AdminViewImpl();
 
-    @NotNull
-    @Override
-    public MainView getView() {
-        return view;
+    private void switchView() {
+        Karyawan karyawan = Session.getInstance().getKaryawan();
+        switch(karyawan.getJabatan()) {
+            case "Admin" :
+                getDataManagerMenu().setVisible(true);
+                getAdmintTabbedPane().setVisible(true);
+                break;
+            case "Teknisi" :
+                getDataManagerMenu().setVisible(false);
+                getAdmintTabbedPane().setVisible(false);
+                view.getRoot().setContentPane(new PermintaanSparepartContainerImpl());
+                break;
+        }
     }
 
     @Override
-    protected void initListener(MainView v) {
+    protected void initListener(AdminView v) {
         getAbLaundryMenu().addActionListener(e -> startOther(CompanyAboutActivity.class));
         getAbProgramMenu().addActionListener(e -> startOther(AppsAboutActivity.class));
         getAbUnivMenu().addActionListener(e -> startOther(UnivAboutActivity.class));
@@ -61,6 +74,16 @@ public final class MainActivity extends InputActivity<MainView> implements MainV
         getChangePasswordMenu().addActionListener(e -> startOther(ChangePasswordActivity.class));
         getChangeUsernameMenu().addActionListener(e -> startOther(ChangeUsernameActivity.class));
         getLogoutMenu().addActionListener(e -> stopThenStart(LoginActivity.class));
+
+        add((OnStartedAction) activity -> switchView());
+
+        add((OnStartedAction) activity -> switchView());
+    }
+
+    @NotNull
+    @Override
+    public AdminView getView() {
+        return view;
     }
 
     public void showInfo(MainController mainController, String message) {
@@ -108,6 +131,11 @@ public final class MainActivity extends InputActivity<MainView> implements MainV
     public <A extends Activity<?>> A startOther(MainController mainController, Class<A> activityClass) {
         Logger.INSTANCE.printInfo("Start Other Activity From "+mainController.getControllerTitle());
         return super.startOther(activityClass);
+    }
+
+    @Override
+    public JTabbedPane getAdmintTabbedPane() {
+        return view.getAdmintTabbedPane();
     }
 
     @Override

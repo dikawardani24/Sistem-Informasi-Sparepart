@@ -1,34 +1,31 @@
 /*
- * Copyright 2018 dika.
+ * Copyright (c) 2018 dika.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Contributors:
+ *    dika - initial API and implementation and/or initial documentation
  */
 package com.reckitBekinser.activity;
 
 import com.dika.view.component.Frame;
-
-import javax.swing.*;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+import javax.swing.JTabbedPane;
 
 /**
  *
  * @author dika
  */
-public class MainViewImpl extends Frame implements MainView{
+public class AdminViewImpl extends Frame implements AdminView {
 
     /**
-     * Creates new form MainViewImpl
+     * Creates new form AdminViewImpl
      */
-    MainViewImpl() {
+    public AdminViewImpl() {
+        super();
         initComponents();
     }
 
@@ -41,6 +38,9 @@ public class MainViewImpl extends Frame implements MainView{
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        tabPaneAdmin = new javax.swing.JTabbedPane();
+        sparepartMasukContainer1 = new com.reckitBekinser.activity.main.SparepartMasukContainer();
+        sparepartKeluarContainer1 = new com.reckitBekinser.activity.main.SparepartKeluarContainer();
         com.dika.view.component.MenuBar menuBar = new com.dika.view.component.MenuBar();
         javax.swing.JMenu programMenu = new javax.swing.JMenu();
         changeUsernameMenu = new javax.swing.JMenuItem();
@@ -60,7 +60,9 @@ public class MainViewImpl extends Frame implements MainView{
         abUnivMenu = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Sistem Informasi Sparepart PT. Reckit Bekinser");
+
+        tabPaneAdmin.addTab("Sparepart Masuk", sparepartMasukContainer1);
+        tabPaneAdmin.addTab("Sparepart Keluar", sparepartKeluarContainer1);
 
         programMenu.setText("Program");
 
@@ -115,11 +117,17 @@ public class MainViewImpl extends Frame implements MainView{
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 648, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(tabPaneAdmin, javax.swing.GroupLayout.DEFAULT_SIZE, 673, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 350, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(tabPaneAdmin, javax.swing.GroupLayout.DEFAULT_SIZE, 477, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -138,7 +146,15 @@ public class MainViewImpl extends Frame implements MainView{
     private javax.swing.JMenuItem mdSparepartMenu;
     private javax.swing.JMenuItem mdSupplierMenu;
     private javax.swing.JMenuItem mdUserMenu;
+    private com.reckitBekinser.activity.main.SparepartKeluarContainer sparepartKeluarContainer1;
+    private com.reckitBekinser.activity.main.SparepartMasukContainer sparepartMasukContainer1;
+    private javax.swing.JTabbedPane tabPaneAdmin;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public JTabbedPane getAdmintTabbedPane() {
+        return tabPaneAdmin;
+    }
 
     @Override
     public JMenu getDataManagerMenu() {
