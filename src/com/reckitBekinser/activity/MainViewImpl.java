@@ -60,7 +60,7 @@ public class MainViewImpl extends Frame implements MainView{
         abUnivMenu = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Rental Mobil");
+        setTitle("Sistem Informasi Sparepart PT. Recket Bekinser");
 
         programMenu.setText("Program");
 
