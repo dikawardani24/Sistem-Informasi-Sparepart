@@ -17,6 +17,7 @@ import com.dika.activity.service.OnStartedAction;
 import com.dika.database.DatabaseService;
 import com.dika.report.Report;
 import com.dika.view.component.Frame;
+import com.dika.view.component.MenuBar;
 import com.reckitBekinser.Session;
 import com.reckitBekinser.activity.main.MainController;
 import com.reckitBekinser.activity.main.PermintaanSparepartContainerImpl;
@@ -48,7 +49,7 @@ public final class AdminActivity extends InputActivity<AdminView> implements Adm
         Karyawan karyawan = Session.getInstance().getKaryawan();
         switch(karyawan.getJabatan()) {
             case "Admin" :
-                getDataManagerMenu().setVisible(true);
+                getMainMenuBar().remove(getDataManagerMenu());
                 getAdmintTabbedPane().setVisible(true);
                 break;
             case "Teknisi" :
@@ -131,6 +132,11 @@ public final class AdminActivity extends InputActivity<AdminView> implements Adm
     public <A extends Activity<?>> A startOther(MainController mainController, Class<A> activityClass) {
         Logger.INSTANCE.printInfo("Start Other Activity From "+mainController.getControllerTitle());
         return super.startOther(activityClass);
+    }
+
+    @Override
+    public MenuBar getMainMenuBar() {
+        return view.getMainMenuBar();
     }
 
     @Override

@@ -17,6 +17,7 @@ package com.reckitBekinser.activity;
 
 import com.dika.view.InputView;
 import com.dika.view.component.Frame;
+import com.dika.view.component.MenuBar;
 
 import javax.swing.*;
 import javax.swing.text.JTextComponent;
@@ -28,6 +29,8 @@ import java.util.List;
  * @author dika
  */
 public interface AdminView extends InputView<Frame> {
+    MenuBar getMainMenuBar();
+
     JTabbedPane getAdmintTabbedPane();
     
     JMenu getDataManagerMenu();

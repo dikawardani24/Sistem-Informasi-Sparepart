@@ -11,9 +11,9 @@
 package com.reckitBekinser.activity;
 
 import com.dika.view.component.Frame;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JTabbedPane;
+import com.dika.view.component.MenuBar;
+
+import javax.swing.*;
 
 /**
  *
@@ -41,7 +41,7 @@ public class AdminViewImpl extends Frame implements AdminView {
         tabPaneAdmin = new javax.swing.JTabbedPane();
         sparepartMasukContainer1 = new com.reckitBekinser.activity.main.SparepartMasukContainer();
         sparepartKeluarContainer1 = new com.reckitBekinser.activity.main.SparepartKeluarContainer();
-        com.dika.view.component.MenuBar menuBar = new com.dika.view.component.MenuBar();
+        menuBar = new com.dika.view.component.MenuBar();
         javax.swing.JMenu programMenu = new javax.swing.JMenu();
         changeUsernameMenu = new javax.swing.JMenuItem();
         changePasswordMenu = new javax.swing.JMenuItem();
@@ -146,10 +146,17 @@ public class AdminViewImpl extends Frame implements AdminView {
     private javax.swing.JMenuItem mdSparepartMenu;
     private javax.swing.JMenuItem mdSupplierMenu;
     private javax.swing.JMenuItem mdUserMenu;
+    private com.dika.view.component.MenuBar menuBar;
     private com.reckitBekinser.activity.main.SparepartKeluarContainer sparepartKeluarContainer1;
     private com.reckitBekinser.activity.main.SparepartMasukContainer sparepartMasukContainer1;
     private javax.swing.JTabbedPane tabPaneAdmin;
     // End of variables declaration//GEN-END:variables
+
+
+    @Override
+    public MenuBar getMainMenuBar() {
+        return menuBar;
+    }
 
     @Override
     public JTabbedPane getAdmintTabbedPane() {
