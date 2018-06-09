@@ -8,6 +8,7 @@ import com.dika.view.component.Dialog;
 import com.dika.view.component.TextArea;
 import com.dika.view.component.TextField;
 import com.reckitBekinser.activity.menuDataManager.KaryawanManagerActivity;
+import com.reckitBekinser.activity.menuDataManager.SparepartManagerActivity;
 import com.reckitBekinser.model.Sparepart;
 import com.reckitBekinser.service.SparepartServiceImpl;
 import org.jetbrains.annotations.NotNull;
@@ -41,8 +42,8 @@ public class UpdateSparepartActivity extends InputActivity<UpdateSparepartView>
                 service -> {
                     service.update(sparepart);
                     Activity<?> parent = getParent();
-                    if (parent instanceof KaryawanManagerActivity) {
-                        ((KaryawanManagerActivity) parent).refresh();
+                    if (parent instanceof SparepartManagerActivity) {
+                        ((SparepartManagerActivity) parent).refresh();
                     }
                     return service;
                 });
