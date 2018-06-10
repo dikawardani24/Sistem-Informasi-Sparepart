@@ -16,8 +16,9 @@
 package com.reckitBekinser.activity.menuDataManager.karyawan;
 
 import com.dika.activity.Activity;
-import com.dika.activity.InputActivity;
+import com.dika.activity.ManipulateEntityActivity;
 import com.dika.view.component.*;
+import com.dika.view.component.custom.HeaderLabel;
 import com.reckitBekinser.activity.menuDataManager.KaryawanManagerActivity;
 import com.reckitBekinser.model.Karyawan;
 import com.reckitBekinser.service.KaryawanServiceImpl;
@@ -26,15 +27,27 @@ import org.jetbrains.annotations.NotNull;
 /**
  * @author dika
  */
-public final class AddKaryawanActivity extends InputActivity<AddKaryawanView> implements AddKaryawanView {
-    private final AddKaryawanView view = new AddKaryawanViewImpl();
+public final class ManipulateKaryawanActivity extends ManipulateEntityActivity<ManipulateKaryawanView, Karyawan> implements ManipulateKaryawanView {
+    private final ManipulateKaryawanView view = new ManipulateKaryawanViewImpl();
 
-    private void saveNewKaryawan() {
-        if (!validateInput()) {
-            return;
-        }
+    @NotNull
+    @Override
+    public Karyawan createNewEntity() {
+        return new Karyawan();
+    }
 
-        Karyawan karyawan = new Karyawan();
+    @Override
+    public void viewOldDataEntity(Karyawan entity) {
+        getNamaField().setText(entity.getNama());
+        getJenkelComboBox().setSelectedItem(entity.getJenisKelamin());
+        getJabatanComboBox().setSelectedItem(entity.getJabatan());
+        getNoTelpField().setText(entity.getNoHp());
+        getNoKtpField().setText(entity.getNoKtp());
+        getAlamatField().setText(entity.getAlamat());
+    }
+
+    @Override
+    protected void initData(Karyawan karyawan) {
         karyawan.setNama(getNamaField().getText());
         String jenkel = String.valueOf(getJenkelComboBox().getSelectedItem());
         karyawan.setJenisKelamin(jenkel);
@@ -42,7 +55,10 @@ public final class AddKaryawanActivity extends InputActivity<AddKaryawanView> im
         karyawan.setNoKtp(getNoKtpField().getText());
         karyawan.setAlamat(getAlamatField().getText());
         karyawan.setJabatan(String.valueOf(getJabatanComboBox().getSelectedItem()));
+    }
 
+    @Override
+    protected void saveNewEntity(Karyawan karyawan) {
         execute(new KaryawanServiceImpl(), "Data Karyawan Berhasil Disimpan", "Data Karyawan Gagal Disimpan",
                 karyawanService -> {
                     karyawanService.create(karyawan);
@@ -50,24 +66,28 @@ public final class AddKaryawanActivity extends InputActivity<AddKaryawanView> im
                     if (parent instanceof KaryawanManagerActivity) {
                         ((KaryawanManagerActivity) parent).refresh();
                     }
-                    
+
                     clear();
                     return karyawanService;
                 });
     }
 
     @Override
-    protected void initListener(AddKaryawanView v) {
-        getSaveButton().addActionListener(evt -> saveNewKaryawan());
-
-        getClearButton().addActionListener(evt -> clear());
-
-        getCancelButton().addActionListener(evt -> stop());
+    protected void updateEntity(Karyawan karyawan) {
+        execute(new KaryawanServiceImpl(), "Data Karyawan Berhasil Disimpan", "Data Karyawan Gagal Disimpan",
+                karyawanService -> {
+                    karyawanService.update(karyawan);
+                    Activity<?> parent = getParent();
+                    if (parent instanceof KaryawanManagerActivity) {
+                        ((KaryawanManagerActivity) parent).refresh();
+                    }
+                    return karyawanService;
+                });
     }
-    
+
     @NotNull
     @Override
-    public AddKaryawanView getView() {
+    public ManipulateKaryawanView getView() {
         return view;
     }
 
@@ -121,4 +141,9 @@ public final class AddKaryawanActivity extends InputActivity<AddKaryawanView> im
         return view.getRoot();
     }
 
+    @NotNull
+    @Override
+    public HeaderLabel getHeaderLabel() {
+        return view.getHeaderLabel();
+    }
 }

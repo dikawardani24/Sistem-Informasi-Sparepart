@@ -47,40 +47,36 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" attributes="0">
                   <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Component id="headerLabel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="clearButton" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="cancelButton" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="saveButton" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="label2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="label6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="label7" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="label5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="headerLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="clearButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cancelButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="saveButton" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane1" alignment="0" pref="396" max="32767" attributes="0"/>
-                              <Component id="noKtpField" alignment="0" max="32767" attributes="0"/>
-                              <Component id="noHpField" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jenkelCmb" alignment="0" max="32767" attributes="0"/>
-                              <Component id="namaField" alignment="0" max="32767" attributes="0"/>
-                              <Component id="idKaryawanField" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jabatanCmb" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane1" pref="336" max="32767" attributes="0"/>
+                                  <Component id="noKtpField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="noHpField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jenkelCmb" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="namaField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jabatanCmb" alignment="0" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                   </Group>
@@ -94,11 +90,6 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="headerLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="idKaryawanField" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="label7" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="label1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="namaField" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -120,15 +111,15 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="label6" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="label6" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jabatanCmb" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="label5" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="cancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -142,12 +133,8 @@
       <SubComponents>
         <Component class="com.dika.view.component.custom.HeaderLabel" name="headerLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Update Data Karyawan"/>
+            <Property name="text" type="java.lang.String" value="Registrasi Karyawan"/>
           </Properties>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-          </AuxValues>
         </Component>
         <Component class="com.dika.view.component.Label" name="label1">
           <Properties>
@@ -235,17 +222,6 @@
         <Component class="com.dika.view.component.custom.CancelButton" name="cancelButton">
         </Component>
         <Component class="com.dika.view.component.custom.ClearButton" name="clearButton">
-        </Component>
-        <Component class="com.dika.view.component.custom.UnEditableTextField" name="idKaryawanField">
-        </Component>
-        <Component class="com.dika.view.component.Label" name="label7">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="ID Karyawan"/>
-          </Properties>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-          </AuxValues>
         </Component>
         <Component class="com.dika.view.component.ComboBox" name="jabatanCmb">
           <Properties>

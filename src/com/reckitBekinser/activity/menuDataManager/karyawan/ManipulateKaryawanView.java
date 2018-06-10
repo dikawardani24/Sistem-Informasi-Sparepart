@@ -17,7 +17,9 @@ package com.reckitBekinser.activity.menuDataManager.karyawan;
 
 import com.dika.util.CollectionHelper;
 import com.dika.view.InputView;
+import com.dika.view.ManipulateView;
 import com.dika.view.component.*;
+import com.dika.view.component.custom.HeaderLabel;
 
 import javax.swing.text.JTextComponent;
 import java.util.List;
@@ -26,31 +28,23 @@ import java.util.List;
  *
  * @author dika
  */
-public interface UpdateKaryawanView extends InputView<Dialog> {
-    TextField getIdKaryawanField();
-    
+public interface ManipulateKaryawanView extends ManipulateView {
+
     TextField getNamaField();
-    
+
     ComboBox<String> getJenkelComboBox();
-    
+
     ComboBox<String> getJabatanComboBox();
-    
+
     TextField getNoTelpField();
-    
+
     TextField getNoKtpField();
-    
+
     TextArea getAlamatField();
 
-    Button getClearButton();
-    
-    Button getCancelButton();
-    
-    Button getSaveButton();
-    
     @Override
     default List<JTextComponent> getTextComponents() {
         return CollectionHelper.INSTANCE.collectAsArrayList(
-                getIdKaryawanField(),
                 getNamaField(),
                 getNoTelpField(),
                 getNoKtpField(),

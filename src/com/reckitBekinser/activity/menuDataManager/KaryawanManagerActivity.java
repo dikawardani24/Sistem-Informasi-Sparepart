@@ -14,13 +14,12 @@ import com.dika.activity.CommonManagerActivity;
 import com.dika.report.DataReport;
 import com.dika.view.component.Table;
 import com.dika.view.model.EntityTableModel;
-import com.reckitBekinser.activity.menuDataManager.karyawan.AddKaryawanActivity;
 import com.reckitBekinser.activity.menuDataManager.karyawan.DeleteKaryawanActivity;
-import com.reckitBekinser.activity.menuDataManager.karyawan.UpdateKaryawanActivity;
-import com.reckitBekinser.tableModel.KaryawanTableModel;
+import com.reckitBekinser.activity.menuDataManager.karyawan.ManipulateKaryawanActivity;
 import com.reckitBekinser.model.Karyawan;
 import com.reckitBekinser.report.KaryawanReport;
 import com.reckitBekinser.service.KaryawanServiceImpl;
+import com.reckitBekinser.tableModel.KaryawanTableModel;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
@@ -37,13 +36,15 @@ public class KaryawanManagerActivity extends CommonManagerActivity<Integer, Kary
 
     @Override
     protected void onAddEntity() {
-        startOther(AddKaryawanActivity.class);
+        ManipulateKaryawanActivity activity = startOther(ManipulateKaryawanActivity.class);
+        activity.setTitle("Tambah Data Karyawan");
     }
 
     @Override
     protected void onUpdate(Karyawan karyawan) {
-        UpdateKaryawanActivity activity = startOther(UpdateKaryawanActivity.class);
-        activity.setKaryawan(karyawan);
+        ManipulateKaryawanActivity activity = startOther(ManipulateKaryawanActivity.class);
+        activity.setTitle("Update Data Karyawan");
+        activity.setEntity(karyawan);
     }
 
     @Override

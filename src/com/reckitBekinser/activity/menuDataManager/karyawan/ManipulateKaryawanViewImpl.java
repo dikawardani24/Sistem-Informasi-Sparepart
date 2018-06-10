@@ -16,17 +16,19 @@
 package com.reckitBekinser.activity.menuDataManager.karyawan;
 
 import com.dika.view.component.*;
+import com.dika.view.component.custom.HeaderLabel;
+import org.jetbrains.annotations.NotNull;
 
 /**
  *
  * @author dika
  */
-public class AddKaryawanViewImpl extends Dialog implements AddKaryawanView {
+public class ManipulateKaryawanViewImpl extends Dialog implements ManipulateKaryawanView {
 
     /**
      * Creates new form RegisterKaryawan
      */
-    public AddKaryawanViewImpl() {
+    public ManipulateKaryawanViewImpl() {
         super();
         initComponents();
         namaField.setName("Nama");
@@ -45,7 +47,7 @@ public class AddKaryawanViewImpl extends Dialog implements AddKaryawanView {
     private void initComponents() {
 
         com.dika.view.component.Panel panel1 = new com.dika.view.component.Panel();
-        com.dika.view.component.custom.HeaderLabel headerLabel1 = new com.dika.view.component.custom.HeaderLabel();
+        headerLabel1 = new com.dika.view.component.custom.HeaderLabel();
         com.dika.view.component.Label label1 = new com.dika.view.component.Label();
         com.dika.view.component.Label label2 = new com.dika.view.component.Label();
         com.dika.view.component.Label label3 = new com.dika.view.component.Label();
@@ -179,6 +181,7 @@ public class AddKaryawanViewImpl extends Dialog implements AddKaryawanView {
     private com.dika.view.component.TextArea alamatField;
     private com.dika.view.component.custom.CancelButton cancelButton;
     private com.dika.view.component.custom.ClearButton clearButton;
+    private com.dika.view.component.custom.HeaderLabel headerLabel1;
     private com.dika.view.component.ComboBox jabatanCmb;
     private com.dika.view.component.ComboBox<String> jenkelCmb;
     private com.dika.view.component.custom.RequireTextField namaField;
@@ -186,6 +189,13 @@ public class AddKaryawanViewImpl extends Dialog implements AddKaryawanView {
     private com.dika.view.component.custom.RequireTextField noKtpField;
     private com.dika.view.component.custom.SaveButton saveButton;
     // End of variables declaration//GEN-END:variables
+
+
+    @NotNull
+    @Override
+    public HeaderLabel getHeaderLabel() {
+        return headerLabel1;
+    }
 
     @Override
     public TextField getNamaField() {
@@ -217,16 +227,19 @@ public class AddKaryawanViewImpl extends Dialog implements AddKaryawanView {
         return alamatField;
     }
 
+    @NotNull
     @Override
     public Button getClearButton() {
         return clearButton;
     }
 
+    @NotNull
     @Override
     public Button getCancelButton() {
         return cancelButton;
     }
 
+    @NotNull
     @Override
     public Button getSaveButton() {
         return saveButton;
