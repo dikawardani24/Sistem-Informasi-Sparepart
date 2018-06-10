@@ -10,6 +10,7 @@
  */
 package com.reckitBekinser.activity;
 
+import com.dika.res.SmallIconRes;
 import com.dika.view.component.Frame;
 import com.dika.view.component.MenuBar;
 
@@ -27,6 +28,25 @@ public class MainViewImpl extends Frame implements MainView {
     public MainViewImpl() {
         super();
         initComponents();
+
+        SmallIconRes res = SmallIconRes.INSTANCE;
+        programMenu.setIcon(res.getAppsIcon());
+        dataManagerMenu.setIcon(res.getOfficeIcon());
+        aboutMenu.setIcon(res.getInfoIcon());
+
+        mdSparepartMenu.setIcon(res.getDotIcon());
+        mdSupplierMenu.setIcon(res.getDotIcon());
+        mdKaryawanMenu.setIcon(res.getDotIcon());
+        mdUserMenu.setIcon(res.getDotIcon());
+
+        changeUsernameMenu.setIcon(res.getUpdateIcon());
+        changePasswordMenu.setIcon(res.getUpdateIcon());
+        logoutMenu.setIcon(res.getLogoutIcon());
+        exitMenu.setIcon(res.getExitIcon());
+
+        abLaundryMenu.setIcon(res.getOfficeIcon());
+        abProgramMenu.setIcon(res.getAppsIcon());
+        abUnivMenu.setIcon(res.getOfficeIcon());
     }
 
     /**
@@ -42,7 +62,7 @@ public class MainViewImpl extends Frame implements MainView {
         sparepartMasukContainer1 = new com.reckitBekinser.activity.main.SparepartMasukContainer();
         sparepartKeluarContainer1 = new com.reckitBekinser.activity.main.SparepartKeluarContainer();
         menuBar = new com.dika.view.component.MenuBar();
-        javax.swing.JMenu programMenu = new javax.swing.JMenu();
+        programMenu = new javax.swing.JMenu();
         changeUsernameMenu = new javax.swing.JMenuItem();
         changePasswordMenu = new javax.swing.JMenuItem();
         javax.swing.JPopupMenu.Separator jSeparator1 = new javax.swing.JPopupMenu.Separator();
@@ -54,7 +74,7 @@ public class MainViewImpl extends Frame implements MainView {
         javax.swing.JPopupMenu.Separator jSeparator2 = new javax.swing.JPopupMenu.Separator();
         mdKaryawanMenu = new javax.swing.JMenuItem();
         mdUserMenu = new javax.swing.JMenuItem();
-        javax.swing.JMenu aboutMenu = new javax.swing.JMenu();
+        aboutMenu = new javax.swing.JMenu();
         abProgramMenu = new javax.swing.JMenuItem();
         abLaundryMenu = new javax.swing.JMenuItem();
         abUnivMenu = new javax.swing.JMenuItem();
@@ -137,6 +157,7 @@ public class MainViewImpl extends Frame implements MainView {
     private javax.swing.JMenuItem abLaundryMenu;
     private javax.swing.JMenuItem abProgramMenu;
     private javax.swing.JMenuItem abUnivMenu;
+    private javax.swing.JMenu aboutMenu;
     private javax.swing.JMenuItem changePasswordMenu;
     private javax.swing.JMenuItem changeUsernameMenu;
     private javax.swing.JMenu dataManagerMenu;
@@ -147,6 +168,7 @@ public class MainViewImpl extends Frame implements MainView {
     private javax.swing.JMenuItem mdSupplierMenu;
     private javax.swing.JMenuItem mdUserMenu;
     private com.dika.view.component.MenuBar menuBar;
+    private javax.swing.JMenu programMenu;
     private com.reckitBekinser.activity.main.SparepartKeluarContainer sparepartKeluarContainer1;
     private com.reckitBekinser.activity.main.SparepartMasukContainer sparepartMasukContainer1;
     private javax.swing.JTabbedPane tabPaneAdmin;
