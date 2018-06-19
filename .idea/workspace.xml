@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c8995e-46ab-4464-8b56-4819fb1b0569" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartKeluarContainerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiKeluar/GantiJumlahSparepartKeluarActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiKeluar/GantiJumlahSparepartKeluarView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiKeluar/GantiJumlahSparepartKeluarViewImpl.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiKeluar/GantiJumlahSparepartKeluarViewImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukViewImpl.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukViewImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/DetailSupplierActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/DetailSupplierView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/DetailSupplierViewImpl.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/DetailSupplierViewImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/InputJumlahMasukSparepartViewImpl.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/InputJumlahMasukSparepartViewImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reckitBekinser/tableModel/DetailTransaksiSparepartKeluarTableModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/model/DetailPermintaanSparepart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/model/DetailPermintaanSparepart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/model/Sparepart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/model/Sparepart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/DetailPermintaanSparepartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/DetailPermintaanSparepartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/DetailPermintaanSparepartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/DetailPermintaanSparepartServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/SparepartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/SparepartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/SparepartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/reckitBekinser/service/SparepartServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/MainViewImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartKeluarContainer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartKeluarContainerImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartKeluarContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartKeluarContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartKeluarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartKeluarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainerImpl.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/model/DetailPermintaanSparepart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/model/DetailPermintaanSparepart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/model/Sparepart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/model/Sparepart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/service/DetailPermintaanSparepartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/service/DetailPermintaanSparepartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/service/DetailPermintaanSparepartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/service/DetailPermintaanSparepartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainerImpl.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainerImpl.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukContainerImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,91 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SparepartMasukController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChooseSparepartMasukView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChooseSparepartMasukActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
-                <element signature="e#1751#1752#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#2652#2653#0" expanded="true" />
-                <element signature="e#2679#2680#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparepartServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChooseSparepartMasukViewImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukViewImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="149" column="20" lean-forward="true" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6687#6688#0" expanded="true" />
-                <element signature="e#6714#6715#0" expanded="true" />
-                <element signature="e#6767#6768#0" expanded="true" />
-                <element signature="e#6794#6795#0" expanded="true" />
-                <element signature="e#6859#6860#0" expanded="true" />
-                <element signature="e#6886#6887#0" expanded="true" />
-                <element signature="e#6946#6947#0" expanded="true" />
-                <element signature="e#6973#6974#0" expanded="true" />
-                <element signature="e#7017#7018#0" expanded="true" />
-                <element signature="e#7044#7045#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -218,6 +97,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Sistem Informasi Sparepart" type="cbb8eebc:String" user="Sistem Informasi Sparepart" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
+              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,73 +148,6 @@
               <item name="Sistem Informasi Sparepart" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="JPA_Starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="activity" type="1f31426a:PackageElementNode" />
-              <item name="main" type="1f31426a:PackageElementNode" />
-              <item name="transaksiMasuk" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="model" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Sistem Informasi Sparepart" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sistem Informasi Sparepart" type="616d4139:PackageViewModuleNode" />
-              <item name="com.reckitBekinser" type="1f31426a:PackageElementNode" />
-              <item name="tableModel" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Sistem Informasi Sparepart" type="cbb8eebc:String" user="Sistem Informasi Sparepart" />
             </path>
           </expand>
           <select />
@@ -573,12 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528637190921</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Working on sparepart masuk activity">
+      <created>1529417454693</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1529417454693</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="738" extended-state="6" />
-    <editor active="true" />
+    <frame x="51" y="27" width="1315" height="741" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -587,54 +439,64 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32866043" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.79623824" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.38819876" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39655173" visible="true" weight="0.23030303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39655173" visible="true" weight="0.24192278" />
       <window_info id="Structure" order="1" sideWeight="0.6034483" side_tool="true" weight="0.23030303" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32917318" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32917318" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39719626" visible="true" weight="0.21439394" />
       <window_info id="Structure" order="1" sideWeight="0.60280377" side_tool="true" weight="0.22348484" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.79623824" />
       <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32866043" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.79623824" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32917318" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -681,21 +543,23 @@
     <MESSAGE value="Refresh" />
     <MESSAGE value="Update code of adding data model" />
     <MESSAGE value="Simplify Manipulate data karyawan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify Manipulate data karyawan" />
+    <MESSAGE value="Working on sparepart masuk activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on sparepart masuk activity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukActivity.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/AppsAboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/menuAbout/AppsAboutView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -815,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/model/DetailTransaksiSparepartKeluar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -1018,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/SparepartMasukController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1028,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="425">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1038,20 +892,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukViewImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="149" column="20" lean-forward="true" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+        <state relative-caret-position="952">
+          <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6687#6688#0" expanded="true" />
-            <element signature="e#6714#6715#0" expanded="true" />
-            <element signature="e#6767#6768#0" expanded="true" />
-            <element signature="e#6794#6795#0" expanded="true" />
-            <element signature="e#6859#6860#0" expanded="true" />
-            <element signature="e#6886#6887#0" expanded="true" />
-            <element signature="e#6946#6947#0" expanded="true" />
-            <element signature="e#6973#6974#0" expanded="true" />
-            <element signature="e#7017#7018#0" expanded="true" />
-            <element signature="e#7044#7045#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1066,33 +910,37 @@
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/service/SparepartServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/activity/main/transaksiMasuk/ChooseSparepartMasukActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        <state relative-caret-position="183">
+          <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#2605#2606#0" expanded="true" />
             <element signature="e#2652#2653#0" expanded="true" />
-            <element signature="e#2679#2680#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/model/DetailTransaksiSparepartKeluar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding>
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reckitBekinser/model/Karyawan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>

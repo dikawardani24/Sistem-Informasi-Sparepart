@@ -19,38 +19,36 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="pagingTableViewImpl1" pref="482" max="32767" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1" min="-2" max="-2" attributes="0"/>
                           <Component id="label2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="namaSupplierField" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="idPemintaField" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="idPermintaanField" max="32767" attributes="0"/>
                               <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Component id="searchButton1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" max="-2" attributes="0"/>
-                              <Component id="seeButton1" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="noPurchaseOrderField" max="32767" attributes="0"/>
+                          <Component id="namaPemintaField" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="headerLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="midHeaderLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="addButton1" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="pagingTableViewImpl1" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       <Component id="clearButton1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="saveButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headerLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="midHeaderLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -65,23 +63,24 @@
               <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="noPurchaseOrderField" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="label2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="namaSupplierField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idPermintaanField" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="searchButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="seeButton1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="midHeaderLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="addButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idPemintaField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="label2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="pagingTableViewImpl1" pref="215" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="namaPemintaField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="label3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="midHeaderLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
+              <Component id="pagingTableViewImpl1" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="saveButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="clearButton1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -94,7 +93,7 @@
   <SubComponents>
     <Component class="com.dika.view.component.custom.HeaderLabel" name="headerLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sparepart Masuk"/>
+        <Property name="text" type="java.lang.String" value="Sparepart Keluar"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
@@ -103,41 +102,49 @@
     </Component>
     <Component class="com.dika.view.component.Label" name="label1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="No. Purchase Order"/>
+        <Property name="text" type="java.lang.String" value="ID Permintaan Sparepart"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
       </AuxValues>
     </Component>
-    <Component class="com.dika.view.component.Label" name="label2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Supplier"/>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-      </AuxValues>
-    </Component>
-    <Component class="com.dika.view.component.custom.RequireTextField" name="noPurchaseOrderField">
-    </Component>
-    <Component class="com.dika.view.component.custom.UnEditableTextField" name="namaSupplierField">
-    </Component>
-    <Component class="com.dika.view.component.custom.SearchButton" name="searchButton1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Pilih"/>
-      </Properties>
-    </Component>
-    <Component class="com.dika.view.component.custom.SeeButton" name="seeButton1">
+    <Component class="com.dika.view.component.custom.RequireTextField" name="idPermintaanField">
     </Component>
     <Component class="com.dika.view.component.custom.MidHeaderLabel" name="midHeaderLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Daftar Barang Masuk"/>
+        <Property name="text" type="java.lang.String" value="Daftar Sparepart Keluar"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
     </Component>
     <Component class="com.dika.view.custom.PagingTableViewImpl" name="pagingTableViewImpl1">
     </Component>
-    <Component class="com.dika.view.component.custom.AddButton" name="addButton1">
+    <Component class="com.dika.view.component.custom.SearchButton" name="searchButton1">
+    </Component>
+    <Component class="com.dika.view.component.custom.UnEditableTextField" name="idPemintaField">
+    </Component>
+    <Component class="com.dika.view.component.custom.UnEditableTextField" name="namaPemintaField">
+    </Component>
+    <Component class="com.dika.view.component.Label" name="label2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Karyawan Peminta"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
+    </Component>
+    <Component class="com.dika.view.component.Label" name="label3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama Karyawan Peminta"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
     </Component>
     <Component class="com.dika.view.component.custom.SaveButton" name="saveButton1">
     </Component>
