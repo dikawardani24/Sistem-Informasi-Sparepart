@@ -14,6 +14,8 @@ import com.dika.database.DatabaseServiceImpl;
 import com.reckitBekinser.model.Sparepart;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.List;
+
 /**
  *
  * @author dika
@@ -25,5 +27,13 @@ public class SparepartServiceImpl extends DatabaseServiceImpl<Integer, Sparepart
     @Override
     protected Class<Sparepart> getEntityKClass() {
         return Sparepart.class;
+    }
+
+    @Override
+    public List<Sparepart> findsBy(String nama) {
+        return findsByNamedQuery("Sparepart.findByName", parameters -> {
+            parameters.put("nama", nama);
+            return parameters;
+        });
     }
 }

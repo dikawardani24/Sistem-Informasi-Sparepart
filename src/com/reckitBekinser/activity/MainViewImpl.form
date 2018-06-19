@@ -140,7 +140,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
-        <Component class="com.reckitBekinser.activity.main.SparepartMasukContainer" name="sparepartMasukContainer1">
+        <Component class="com.reckitBekinser.activity.main.SparepartMasukContainerImpl" name="sparepartMasukContainer1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="Sparepart Masuk">
@@ -149,7 +149,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="com.reckitBekinser.activity.main.SparepartKeluarContainer" name="sparepartKeluarContainer1">
+        <Component class="com.reckitBekinser.activity.main.SparepartKeluarContainerImpl" name="sparepartKeluarContainer1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="Sparepart Keluar">

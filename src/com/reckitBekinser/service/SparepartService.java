@@ -12,11 +12,12 @@ package com.reckitBekinser.service;
 
 import com.dika.database.DatabaseService;
 import com.reckitBekinser.model.Sparepart;
+import java.util.List;
 
 /**
  *
  * @author dika
  */
 public interface SparepartService extends DatabaseService<Integer, Sparepart> {
-    
+    List<Sparepart> findsBy(String nama);
 }

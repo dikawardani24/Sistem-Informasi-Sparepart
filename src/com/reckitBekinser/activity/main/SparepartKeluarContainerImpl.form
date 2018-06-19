@@ -17,11 +17,8 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="headerLabel1" min="-2" max="-2" attributes="0"/>
-                  <Component id="midHeaderLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="addButton1" alignment="1" min="-2" max="-2" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="label1" min="-2" max="-2" attributes="0"/>
@@ -30,18 +27,31 @@
                       </Group>
                       <EmptySpace min="-2" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="unEditableTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="idPemintaField" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="requireTextField1" max="32767" attributes="0"/>
+                              <Component id="idPermintaanField" max="32767" attributes="0"/>
                               <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Component id="searchButton1" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="unEditableTextField2" max="32767" attributes="0"/>
+                          <Component id="namaPemintaField" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Component id="pagingTableViewImpl1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="clearButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="saveButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="headerLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="midHeaderLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -53,26 +63,28 @@
               <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="label1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="requireTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idPermintaanField" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="searchButton1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="unEditableTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idPemintaField" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="label2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="unEditableTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="namaPemintaField" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="label3" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="midHeaderLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="addButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
+              <Component id="midHeaderLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="pagingTableViewImpl1" pref="218" max="32767" attributes="0"/>
+              <Component id="pagingTableViewImpl1" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="saveButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="clearButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -97,7 +109,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
       </AuxValues>
     </Component>
-    <Component class="com.dika.view.component.custom.RequireTextField" name="requireTextField1">
+    <Component class="com.dika.view.component.custom.RequireTextField" name="idPermintaanField">
     </Component>
     <Component class="com.dika.view.component.custom.MidHeaderLabel" name="midHeaderLabel1">
       <Properties>
@@ -110,13 +122,11 @@
     </Component>
     <Component class="com.dika.view.custom.PagingTableViewImpl" name="pagingTableViewImpl1">
     </Component>
-    <Component class="com.dika.view.component.custom.AddButton" name="addButton1">
-    </Component>
     <Component class="com.dika.view.component.custom.SearchButton" name="searchButton1">
     </Component>
-    <Component class="com.dika.view.component.custom.UnEditableTextField" name="unEditableTextField1">
+    <Component class="com.dika.view.component.custom.UnEditableTextField" name="idPemintaField">
     </Component>
-    <Component class="com.dika.view.component.custom.UnEditableTextField" name="unEditableTextField2">
+    <Component class="com.dika.view.component.custom.UnEditableTextField" name="namaPemintaField">
     </Component>
     <Component class="com.dika.view.component.Label" name="label2">
       <Properties>
@@ -135,6 +145,10 @@
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
       </AuxValues>
+    </Component>
+    <Component class="com.dika.view.component.custom.SaveButton" name="saveButton1">
+    </Component>
+    <Component class="com.dika.view.component.custom.ClearButton" name="clearButton1">
     </Component>
   </SubComponents>
 </Form>

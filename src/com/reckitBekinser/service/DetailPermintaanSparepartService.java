@@ -12,11 +12,14 @@ package com.reckitBekinser.service;
 
 import com.dika.database.DatabaseService;
 import com.reckitBekinser.model.DetailPermintaanSparepart;
+import com.reckitBekinser.model.PermintaanSparepart;
+
+import java.util.List;
 
 /**
  *
  * @author dika
  */
 public interface DetailPermintaanSparepartService extends DatabaseService<Integer, DetailPermintaanSparepart> {
-    
+    List<DetailPermintaanSparepart> findsBy(PermintaanSparepart permintaanSparepart);
 }

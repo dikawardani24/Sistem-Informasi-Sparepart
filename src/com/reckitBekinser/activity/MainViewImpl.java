@@ -59,8 +59,8 @@ public class MainViewImpl extends Frame implements MainView {
     private void initComponents() {
 
         tabPaneAdmin = new javax.swing.JTabbedPane();
-        sparepartMasukContainer1 = new com.reckitBekinser.activity.main.SparepartMasukContainer();
-        sparepartKeluarContainer1 = new com.reckitBekinser.activity.main.SparepartKeluarContainer();
+        sparepartMasukContainer1 = new com.reckitBekinser.activity.main.SparepartMasukContainerImpl();
+        sparepartKeluarContainer1 = new com.reckitBekinser.activity.main.SparepartKeluarContainerImpl();
         menuBar = new com.dika.view.component.MenuBar();
         programMenu = new javax.swing.JMenu();
         changeUsernameMenu = new javax.swing.JMenuItem();
@@ -169,8 +169,8 @@ public class MainViewImpl extends Frame implements MainView {
     private javax.swing.JMenuItem mdUserMenu;
     private com.dika.view.component.MenuBar menuBar;
     private javax.swing.JMenu programMenu;
-    private com.reckitBekinser.activity.main.SparepartKeluarContainer sparepartKeluarContainer1;
-    private com.reckitBekinser.activity.main.SparepartMasukContainer sparepartMasukContainer1;
+    private com.reckitBekinser.activity.main.SparepartKeluarContainerImpl sparepartKeluarContainer1;
+    private com.reckitBekinser.activity.main.SparepartMasukContainerImpl sparepartMasukContainer1;
     private javax.swing.JTabbedPane tabPaneAdmin;
     // End of variables declaration//GEN-END:variables
 

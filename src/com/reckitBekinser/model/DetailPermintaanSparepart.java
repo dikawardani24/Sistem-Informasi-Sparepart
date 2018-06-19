@@ -22,6 +22,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @Table(name = "detail_permintaan_sparepart")
 @XmlRootElement
+@NamedQueries(
+        @NamedQuery(name = "DetailPermintaanSparepart.findByPermintaan", 
+                query = "SELECT d FROM DetailPermintaanSparepart d WHERE d.permintaanSparepart.id= :idPermintaan")
+)
 public class DetailPermintaanSparepart extends AbstractEntity<Integer> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -12,7 +12,10 @@ package com.reckitBekinser.service;
 
 import com.dika.database.DatabaseServiceImpl;
 import com.reckitBekinser.model.DetailPermintaanSparepart;
+import com.reckitBekinser.model.PermintaanSparepart;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 /**
  *
@@ -25,5 +28,13 @@ public class DetailPermintaanSparepartServiceImpl extends DatabaseServiceImpl<In
     @Override
     protected Class<DetailPermintaanSparepart> getEntityKClass() {
         return DetailPermintaanSparepart.class;
+    }
+
+    @Override
+    public List<DetailPermintaanSparepart> findsBy(PermintaanSparepart permintaanSparepart) {
+        return findsByNamedQuery("DetailPermintaanSparepart.findByPermintaan", parameters -> {
+            parameters.put("idPermintaan", permintaanSparepart.getId());
+            return parameters;
+        });
     }
 }

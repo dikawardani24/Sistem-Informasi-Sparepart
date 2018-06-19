@@ -22,6 +22,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @Table(name = "sparepart")
 @XmlRootElement
+@NamedQueries(
+        @NamedQuery(name = "Sparepart.findByName", query = "SELECT s FROM Sparepart s WHERE s.nama = :nama")
+)
 public class Sparepart extends AbstractEntity<Integer> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

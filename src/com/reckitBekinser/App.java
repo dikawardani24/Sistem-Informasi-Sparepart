@@ -22,6 +22,7 @@ import kotlin.Unit;
 public class App {
     public static void main(String [] args) {
         System.INSTANCE.boot(system -> {
+            system.setCompanyName("PT. Reckti Bekinser");
             system.setPersitenceName("SparePartReckitBekinserPU");
             system.setAllowMultipleInstance(false);
             system.setLoggerType(Logger.LoggerType.FULL_VERBOSE);
